@@ -45,6 +45,8 @@ namespace GenderEqualityApp
             this.tbxPW = new System.Windows.Forms.TextBox();
             this.tbxG = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.regTXTBday = new System.Windows.Forms.Label();
+            this.tbxCalendar = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -105,7 +107,7 @@ namespace GenderEqualityApp
             // regTXTUN
             // 
             this.regTXTUN.AutoSize = true;
-            this.regTXTUN.Location = new System.Drawing.Point(262, 515);
+            this.regTXTUN.Location = new System.Drawing.Point(68, 519);
             this.regTXTUN.Name = "regTXTUN";
             this.regTXTUN.Size = new System.Drawing.Size(83, 20);
             this.regTXTUN.TabIndex = 6;
@@ -114,7 +116,7 @@ namespace GenderEqualityApp
             // regTXTPW
             // 
             this.regTXTPW.AutoSize = true;
-            this.regTXTPW.Location = new System.Drawing.Point(605, 515);
+            this.regTXTPW.Location = new System.Drawing.Point(411, 519);
             this.regTXTPW.Name = "regTXTPW";
             this.regTXTPW.Size = new System.Drawing.Size(78, 20);
             this.regTXTPW.TabIndex = 7;
@@ -150,14 +152,14 @@ namespace GenderEqualityApp
             // 
             // tbxUN
             // 
-            this.tbxUN.Location = new System.Drawing.Point(266, 549);
+            this.tbxUN.Location = new System.Drawing.Point(72, 553);
             this.tbxUN.Name = "tbxUN";
             this.tbxUN.Size = new System.Drawing.Size(100, 26);
             this.tbxUN.TabIndex = 12;
             // 
             // tbxPW
             // 
-            this.tbxPW.Location = new System.Drawing.Point(609, 548);
+            this.tbxPW.Location = new System.Drawing.Point(415, 552);
             this.tbxPW.Name = "tbxPW";
             this.tbxPW.Size = new System.Drawing.Size(100, 26);
             this.tbxPW.TabIndex = 13;
@@ -184,11 +186,29 @@ namespace GenderEqualityApp
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // regTXTBday
+            // 
+            this.regTXTBday.AutoSize = true;
+            this.regTXTBday.Location = new System.Drawing.Point(616, 346);
+            this.regTXTBday.Name = "regTXTBday";
+            this.regTXTBday.Size = new System.Drawing.Size(67, 20);
+            this.regTXTBday.TabIndex = 16;
+            this.regTXTBday.Text = "Birthday";
+            // 
+            // tbxCalendar
+            // 
+            this.tbxCalendar.Location = new System.Drawing.Point(620, 382);
+            this.tbxCalendar.Name = "tbxCalendar";
+            this.tbxCalendar.Size = new System.Drawing.Size(304, 26);
+            this.tbxCalendar.TabIndex = 18;
+            // 
             // RegForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(972, 815);
+            this.Controls.Add(this.tbxCalendar);
+            this.Controls.Add(this.regTXTBday);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbxG);
             this.Controls.Add(this.tbxPW);
@@ -230,5 +250,7 @@ namespace GenderEqualityApp
         private System.Windows.Forms.TextBox tbxPW;
         private System.Windows.Forms.ComboBox tbxG;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label regTXTBday;
+        private System.Windows.Forms.DateTimePicker tbxCalendar;
     }
 }

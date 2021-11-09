@@ -14,7 +14,8 @@ namespace GenderEqualityApp
 {
     public partial class RegForm : Form
     {
-        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["GenderEqualityApp.Properties.Settings.app_usersConnectionString"].ConnectionString);
+        SqlConnection conn = new SqlConnection("Data Source =(localdb)\\MSSQLLocalDB;Initial Catalog = gender_equality_users;Integrated Security = True;");
+        SqlCommand cmd; 
         public RegForm()
         {
             InitializeComponent();
@@ -22,7 +23,22 @@ namespace GenderEqualityApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                conn.Open();
+                cmd = new SqlCommand("INSERT INTO RegistrationData VALUES ('" + tbxUN.Text + "', '" + tbxPW.Text + "', '" + tbxFN.Text + "', '" + tbxMN.Text + "', '" + tbxLN.Text + "', '" + tbxG.SelectedItem.ToString() + "','" + tbxEA.Text + "', '" + tbxCalendar.Text + "')", conn);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Registered Successfully!");
+                this.Hide();
+                LogIn loginform = new LogIn();
+                loginform.Show();
+                conn.Close();
+            }
 
-        }
+            catch
+            {
+                MessageBox.Show("Fill up all of the text box.");
+            }
+}
     }
 }
