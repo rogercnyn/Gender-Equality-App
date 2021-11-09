@@ -45,6 +45,8 @@ namespace GenderEqualityApp
             this.tbxPW = new System.Windows.Forms.TextBox();
             this.tbxG = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tbxBday = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -184,11 +186,29 @@ namespace GenderEqualityApp
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(661, 346);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 20);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Birthday";
+            // 
+            // tbxBday
+            // 
+            this.tbxBday.Location = new System.Drawing.Point(665, 382);
+            this.tbxBday.Name = "tbxBday";
+            this.tbxBday.Size = new System.Drawing.Size(316, 26);
+            this.tbxBday.TabIndex = 17;
+            // 
             // RegForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(972, 815);
+            this.ClientSize = new System.Drawing.Size(1084, 815);
+            this.Controls.Add(this.tbxBday);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbxG);
             this.Controls.Add(this.tbxPW);
@@ -230,5 +250,7 @@ namespace GenderEqualityApp
         private System.Windows.Forms.TextBox tbxPW;
         private System.Windows.Forms.ComboBox tbxG;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker tbxBday;
     }
 }

@@ -76,7 +76,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuShapes">
       <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -91,11 +93,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="app_usersDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>app_usersDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,17 +141,6 @@
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="app_usersDataSet.xsc">
-      <DependentUpon>app_usersDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="app_usersDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>app_usersDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="app_usersDataSet.xss">
-      <DependentUpon>app_usersDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
