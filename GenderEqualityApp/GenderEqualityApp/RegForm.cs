@@ -22,23 +22,6 @@ namespace GenderEqualityApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*try
-            {
-                SqlCommand register = new SqlCommand(@"INSERT INTO users VALUES ('" + tbxUN.Text + "', '" + tbxPW.Text + "', '" + tbxFN.Text + "', '" + tbxMN.Text + "', '" + tbxLN.Text + "', '" + tbxG.SelectedItem.ToString() + "','" + tbxEA.Text + "')", conn);
-                conn.Open();
-                register.ExecuteNonQuery();
-                conn.Close();
-                MessageBox.Show("Registered Successfully!");
-                this.Hide();
-                LogIn loginform = new LogIn();
-                loginform.Show();
-            }
-
-            catch
-            {
-                MessageBox.Show("Fill up all of the text box.");
-            }*/
-                
 
         }
     }
