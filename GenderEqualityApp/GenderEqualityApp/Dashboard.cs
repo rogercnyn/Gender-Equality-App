@@ -16,5 +16,35 @@ namespace GenderEqualityApp
         {
             InitializeComponent();
         }
+
+        private void bunifuButton21_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Dashboard");
+        }
+
+        private void bunifuButton22_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Heat Map");
+        }
+
+        private void bunifuButton23_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Articles");
+        }
+
+        private void bunifuButton24_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Info");
+        }
+
+        private void bunifuButton25_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("About");
+        }
+
+        private void bunifuPictureBox1_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Profile");
+        }
     }
 }

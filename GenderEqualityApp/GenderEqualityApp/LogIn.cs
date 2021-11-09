@@ -20,7 +20,7 @@ namespace GenderEqualityApp
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bunifuButton21_Click(object sender, EventArgs e)
         {
             conn.Open();
             SqlCommand cmd = new SqlCommand("SELECT * FROM users WHERE username = @paramUN and userpassword = @paramPW", conn);
