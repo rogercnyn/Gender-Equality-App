@@ -14,7 +14,8 @@ namespace GenderEqualityApp
 {
     public partial class LogIn : Form
     {
-        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["GenderEqualityApp.Properties.Settings.app_usersConnectionString"].ConnectionString);
+        SqlConnection conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=users_database;Integrated Security = True;");
+        SqlCommand cmd;
         public LogIn()
         {
             InitializeComponent();
@@ -23,7 +24,7 @@ namespace GenderEqualityApp
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
             conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT * FROM users WHERE username = @paramUN and userpassword = @paramPW", conn);
+            cmd = new SqlCommand("SELECT * FROM usersData WHERE userName = @paramUN and userPassword = @paramPW", conn);
             cmd.Parameters.AddWithValue("@paramUN", loginTBXUN.Text);
             cmd.Parameters.AddWithValue("@paramPW", loginTBXPW.Text);
             SqlDataReader dr = cmd.ExecuteReader();
