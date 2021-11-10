@@ -14,8 +14,8 @@ namespace GenderEqualityApp
 {
     public partial class LogIn : Form
     {
-        SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
-        SqlCommand cmd;
+        /*SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
+        SqlCommand cmd;*/
         public LogIn()
         {
             InitializeComponent();
@@ -23,7 +23,11 @@ namespace GenderEqualityApp
 
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
-            conn.Open();
+            this.Hide();
+            Dashboard dashboardform = new Dashboard();
+            dashboardform.Show();
+
+            /*conn.Open();
             cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN and userPassword = @paramPW", conn);
             cmd.Parameters.AddWithValue("@paramUN", loginTBXUN.Text);
             cmd.Parameters.AddWithValue("@paramPW", loginTBXPW.Text);
@@ -39,14 +43,14 @@ namespace GenderEqualityApp
                 MessageBox.Show("Try again.");
             }
             dr.Close();
-            conn.Close();
+            conn.Close();*/
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
+            /*this.Hide();
             RegForm registrationform = new RegForm();
-            registrationform.Show();
+            registrationform.Show();*/
         }
     }
 }
