@@ -2088,6 +2088,12 @@
   <data name="bunifuLabel53.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Heebo'; font-size: 13.8pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(22, 33, 62); text-align: left; }</value>
   </data>
+  <data name="bunifuLabel77.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Heebo'; font-size: 13.8pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(22, 33, 62); text-align: left; }</value>
+  </data>
+  <data name="bunifuLabel78.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; font-family: 'Heebo'; font-size: 13.8pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(22, 33, 62); text-align: left; }</value>
+  </data>
   <data name="bunifuLabel49.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Heebo'; font-size: 13.8pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(22, 33, 62); text-align: left; }</value>
   </data>
