@@ -58,6 +58,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
       <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
     </Reference>

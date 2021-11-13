@@ -52,9 +52,14 @@ namespace GenderEqualityApp
             bunifuPages1.SetPage("Profile");
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
+        private void btnMin_Click(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Minimized;
+        }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
