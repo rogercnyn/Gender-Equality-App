@@ -20,26 +20,5 @@ namespace GenderEqualityApp
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            /*try
-            {
-                conn.Open();
-                cmd = new SqlCommand("INSERT INTO usersdata VALUES ('"+tbxUN.Text+"','"+tbxPW.Text+"','"+tbxFN.Text+"','"+tbxMN.Text+"','"+tbxLN.Text+"','"+tbxG.SelectedItem.ToString()+"','"+tbxEA.Text+"','"+tbxBday.Text+"')", conn);
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Registered Successfully!");
-                conn.Close();
-                this.Hide();
-                LogIn loginform = new LogIn();
-                loginform.Show();
-                
-            }
-
-            catch
-            {
-                MessageBox.Show("Fill up all of the text box.");
-            }*/
-        }
     }
 }

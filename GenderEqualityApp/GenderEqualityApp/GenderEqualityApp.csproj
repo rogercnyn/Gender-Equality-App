@@ -73,11 +73,17 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
       <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel">
       <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuShapes">
       <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextBox">
+      <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
@@ -85,6 +91,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

@@ -65,3 +65,5 @@ C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml

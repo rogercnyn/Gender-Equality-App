@@ -32,15 +32,23 @@ namespace GenderEqualityApp
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogIn));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.loginTBXUN = new System.Windows.Forms.TextBox();
-            this.loginTBXPW = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.bunifuButton21 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.loginTBXUN = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.loginTBXPW = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,21 +89,6 @@ namespace GenderEqualityApp
             this.label3.Size = new System.Drawing.Size(107, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
-            // 
-            // loginTBXUN
-            // 
-            this.loginTBXUN.Location = new System.Drawing.Point(336, 186);
-            this.loginTBXUN.Name = "loginTBXUN";
-            this.loginTBXUN.Size = new System.Drawing.Size(361, 30);
-            this.loginTBXUN.TabIndex = 3;
-            // 
-            // loginTBXPW
-            // 
-            this.loginTBXPW.Location = new System.Drawing.Point(336, 281);
-            this.loginTBXPW.Name = "loginTBXPW";
-            this.loginTBXPW.PasswordChar = '*';
-            this.loginTBXPW.Size = new System.Drawing.Size(361, 30);
-            this.loginTBXPW.TabIndex = 4;
             // 
             // linkLabel1
             // 
@@ -157,7 +150,7 @@ namespace GenderEqualityApp
             this.bunifuButton21.IdleIconLeftImage = null;
             this.bunifuButton21.IdleIconRightImage = null;
             this.bunifuButton21.IndicateFocus = false;
-            this.bunifuButton21.Location = new System.Drawing.Point(336, 381);
+            this.bunifuButton21.Location = new System.Drawing.Point(338, 381);
             this.bunifuButton21.Name = "bunifuButton21";
             this.bunifuButton21.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton21.OnDisabledState.BorderRadius = 30;
@@ -208,12 +201,12 @@ namespace GenderEqualityApp
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
+            this.bunifuPanel1.Controls.Add(this.loginTBXPW);
+            this.bunifuPanel1.Controls.Add(this.loginTBXUN);
             this.bunifuPanel1.Controls.Add(this.linkLabel1);
             this.bunifuPanel1.Controls.Add(this.bunifuButton21);
             this.bunifuPanel1.Controls.Add(this.label2);
             this.bunifuPanel1.Controls.Add(this.label3);
-            this.bunifuPanel1.Controls.Add(this.loginTBXPW);
-            this.bunifuPanel1.Controls.Add(this.loginTBXUN);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(10, 40);
             this.bunifuPanel1.Name = "bunifuPanel1";
@@ -226,6 +219,156 @@ namespace GenderEqualityApp
             // 
             this.bunifuElipse1.ElipseRadius = 35;
             this.bunifuElipse1.TargetControl = this;
+            // 
+            // loginTBXUN
+            // 
+            this.loginTBXUN.AcceptsReturn = false;
+            this.loginTBXUN.AcceptsTab = false;
+            this.loginTBXUN.AnimationSpeed = 200;
+            this.loginTBXUN.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.loginTBXUN.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.loginTBXUN.AutoSizeHeight = true;
+            this.loginTBXUN.BackColor = System.Drawing.Color.White;
+            this.loginTBXUN.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("loginTBXUN.BackgroundImage")));
+            this.loginTBXUN.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.loginTBXUN.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.loginTBXUN.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.loginTBXUN.BorderColorIdle = System.Drawing.Color.Silver;
+            this.loginTBXUN.BorderRadius = 1;
+            this.loginTBXUN.BorderThickness = 1;
+            this.loginTBXUN.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.loginTBXUN.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.loginTBXUN.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.loginTBXUN.DefaultText = "";
+            this.loginTBXUN.FillColor = System.Drawing.Color.White;
+            this.loginTBXUN.HideSelection = true;
+            this.loginTBXUN.IconLeft = null;
+            this.loginTBXUN.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.loginTBXUN.IconPadding = 10;
+            this.loginTBXUN.IconRight = null;
+            this.loginTBXUN.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.loginTBXUN.Lines = new string[0];
+            this.loginTBXUN.Location = new System.Drawing.Point(336, 182);
+            this.loginTBXUN.MaxLength = 32767;
+            this.loginTBXUN.MinimumSize = new System.Drawing.Size(1, 1);
+            this.loginTBXUN.Modified = false;
+            this.loginTBXUN.Multiline = false;
+            this.loginTBXUN.Name = "loginTBXUN";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.loginTBXUN.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.loginTBXUN.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.loginTBXUN.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.loginTBXUN.OnIdleState = stateProperties8;
+            this.loginTBXUN.Padding = new System.Windows.Forms.Padding(3);
+            this.loginTBXUN.PasswordChar = '\0';
+            this.loginTBXUN.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.loginTBXUN.PlaceholderText = "Enter text";
+            this.loginTBXUN.ReadOnly = false;
+            this.loginTBXUN.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.loginTBXUN.SelectedText = "";
+            this.loginTBXUN.SelectionLength = 0;
+            this.loginTBXUN.SelectionStart = 0;
+            this.loginTBXUN.ShortcutsEnabled = true;
+            this.loginTBXUN.Size = new System.Drawing.Size(361, 43);
+            this.loginTBXUN.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.loginTBXUN.TabIndex = 8;
+            this.loginTBXUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.loginTBXUN.TextMarginBottom = 0;
+            this.loginTBXUN.TextMarginLeft = 3;
+            this.loginTBXUN.TextMarginTop = 1;
+            this.loginTBXUN.TextPlaceholder = "Enter text";
+            this.loginTBXUN.UseSystemPasswordChar = false;
+            this.loginTBXUN.WordWrap = true;
+            // 
+            // loginTBXPW
+            // 
+            this.loginTBXPW.AcceptsReturn = false;
+            this.loginTBXPW.AcceptsTab = false;
+            this.loginTBXPW.AnimationSpeed = 200;
+            this.loginTBXPW.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.loginTBXPW.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.loginTBXPW.AutoSizeHeight = true;
+            this.loginTBXPW.BackColor = System.Drawing.Color.White;
+            this.loginTBXPW.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("loginTBXPW.BackgroundImage")));
+            this.loginTBXPW.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.loginTBXPW.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.loginTBXPW.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.loginTBXPW.BorderColorIdle = System.Drawing.Color.Silver;
+            this.loginTBXPW.BorderRadius = 1;
+            this.loginTBXPW.BorderThickness = 1;
+            this.loginTBXPW.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.loginTBXPW.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.loginTBXPW.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.loginTBXPW.DefaultText = "";
+            this.loginTBXPW.FillColor = System.Drawing.Color.White;
+            this.loginTBXPW.HideSelection = true;
+            this.loginTBXPW.IconLeft = null;
+            this.loginTBXPW.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.loginTBXPW.IconPadding = 10;
+            this.loginTBXPW.IconRight = null;
+            this.loginTBXPW.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.loginTBXPW.Lines = new string[0];
+            this.loginTBXPW.Location = new System.Drawing.Point(336, 277);
+            this.loginTBXPW.MaxLength = 32767;
+            this.loginTBXPW.MinimumSize = new System.Drawing.Size(1, 1);
+            this.loginTBXPW.Modified = false;
+            this.loginTBXPW.Multiline = false;
+            this.loginTBXPW.Name = "loginTBXPW";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.loginTBXPW.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.loginTBXPW.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.loginTBXPW.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.loginTBXPW.OnIdleState = stateProperties4;
+            this.loginTBXPW.Padding = new System.Windows.Forms.Padding(3);
+            this.loginTBXPW.PasswordChar = '\0';
+            this.loginTBXPW.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.loginTBXPW.PlaceholderText = "Enter text";
+            this.loginTBXPW.ReadOnly = false;
+            this.loginTBXPW.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.loginTBXPW.SelectedText = "";
+            this.loginTBXPW.SelectionLength = 0;
+            this.loginTBXPW.SelectionStart = 0;
+            this.loginTBXPW.ShortcutsEnabled = true;
+            this.loginTBXPW.Size = new System.Drawing.Size(361, 43);
+            this.loginTBXPW.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.loginTBXPW.TabIndex = 9;
+            this.loginTBXPW.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.loginTBXPW.TextMarginBottom = 0;
+            this.loginTBXPW.TextMarginLeft = 3;
+            this.loginTBXPW.TextMarginTop = 1;
+            this.loginTBXPW.TextPlaceholder = "Enter text";
+            this.loginTBXPW.UseSystemPasswordChar = false;
+            this.loginTBXPW.WordWrap = true;
             // 
             // LogIn
             // 
@@ -253,11 +396,11 @@ namespace GenderEqualityApp
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox loginTBXUN;
-        private System.Windows.Forms.TextBox loginTBXPW;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 bunifuButton21;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.UI.WinForms.BunifuTextBox loginTBXPW;
+        private Bunifu.UI.WinForms.BunifuTextBox loginTBXUN;
     }
 }
