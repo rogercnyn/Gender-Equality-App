@@ -42,9 +42,24 @@ namespace GenderEqualityApp
             bunifuPages1.SetPage("About");
         }
 
-        private void bunifuPictureBox1_Click(object sender, EventArgs e)
+        private void bunifuPictureBox2_Click(object sender, EventArgs e)
         {
             bunifuPages1.SetPage("Profile");
+        }
+
+        private void bunifuLabel2_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage("Profile");
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

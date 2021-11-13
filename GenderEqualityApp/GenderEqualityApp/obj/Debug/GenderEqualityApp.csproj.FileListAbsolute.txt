@@ -21,8 +21,6 @@ C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.pdb
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Dashboard.resources
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.RegForm.resources
-D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\app_users.mdf
-D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\app_users_log.ldf
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\GenderEqualityApp.exe.config
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\GenderEqualityApp.exe
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\GenderEqualityApp.pdb
@@ -58,3 +56,18 @@ D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Progr
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.exe.licenses
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.csproj.CopyComplete
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml

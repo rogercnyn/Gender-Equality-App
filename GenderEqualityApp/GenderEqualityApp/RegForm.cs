@@ -7,8 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Configuration;
-using System.Data.SqlClient;
 
 namespace GenderEqualityApp
 {
@@ -21,7 +19,7 @@ namespace GenderEqualityApp
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void bunifuButton21_Click(object sender, EventArgs e)
         {
             /*try
             {
@@ -40,6 +38,16 @@ namespace GenderEqualityApp
             {
                 MessageBox.Show("Fill up all of the text box.");
             }*/
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

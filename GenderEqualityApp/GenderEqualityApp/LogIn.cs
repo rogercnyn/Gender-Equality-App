@@ -52,5 +52,15 @@ namespace GenderEqualityApp
             RegForm registrationform = new RegForm();
             registrationform.Show();*/
         }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
