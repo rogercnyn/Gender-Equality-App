@@ -34,7 +34,7 @@ namespace GenderEqualityApp
 
         private void bunifuButton24_Click(object sender, EventArgs e)
         {
-            bunifuPages1.SetPage("Info");
+            bunifuPages1.SetPage("Tips");
         }
 
         private void bunifuButton25_Click(object sender, EventArgs e)
