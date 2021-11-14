@@ -66,5 +66,10 @@ namespace GenderEqualityApp
         {
 
         }
+
+        private void bunifuLabel109_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
