@@ -23,5 +23,11 @@ namespace GenderEqualityApp
             this.Close();
             
         }
+
+        private void SplashScreen_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+
+        }
     }
 }
