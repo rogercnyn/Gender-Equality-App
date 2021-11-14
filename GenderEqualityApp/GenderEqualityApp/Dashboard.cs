@@ -61,5 +61,10 @@ namespace GenderEqualityApp
         {
             this.Close();
         }
+
+        private void bunifuLabel72_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
