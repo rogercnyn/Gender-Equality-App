@@ -106,11 +106,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Articles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Articles.Designer.cs">
+      <DependentUpon>Articles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Campaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Campaign.Designer.cs">
+      <DependentUpon>Campaign.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeatMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HeatMap.Designer.cs">
+      <DependentUpon>HeatMap.cs</DependentUpon>
     </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
@@ -132,8 +156,26 @@
     <Compile Include="SplashScreen.Designer.cs">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tips.Designer.cs">
+      <DependentUpon>Tips.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Articles.resx">
+      <DependentUpon>Articles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Campaign.resx">
+      <DependentUpon>Campaign.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeatMap.resx">
+      <DependentUpon>HeatMap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
@@ -153,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tips.resx">
+      <DependentUpon>Tips.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
