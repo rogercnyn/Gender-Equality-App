@@ -55,14 +55,6 @@ namespace GenderEqualityApp
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.bunifuShadowPanel5 = new Bunifu.UI.WinForms.BunifuShadowPanel();
-            this.bunifuLabel53 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuShadowPanel25 = new Bunifu.UI.WinForms.BunifuShadowPanel();
-            this.bunifuLabel74 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuShadowPanel27 = new Bunifu.UI.WinForms.BunifuShadowPanel();
-            this.bunifuLabel75 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuShadowPanel31 = new Bunifu.UI.WinForms.BunifuShadowPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.bunifuShadowPanel2 = new Bunifu.UI.WinForms.BunifuShadowPanel();
             this.bunifuLabel49 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -246,6 +238,7 @@ namespace GenderEqualityApp
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.btnMin = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.btnClose = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AppLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -254,10 +247,6 @@ namespace GenderEqualityApp
             this.bunifuPanel2.SuspendLayout();
             this.bunifuPages1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.bunifuShadowPanel5.SuspendLayout();
-            this.bunifuShadowPanel25.SuspendLayout();
-            this.bunifuShadowPanel27.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.bunifuShadowPanel2.SuspendLayout();
             this.bunifuShadowPanel3.SuspendLayout();
@@ -918,7 +907,7 @@ namespace GenderEqualityApp
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(228)))), ((int)(((byte)(234)))));
-            this.tabPage1.Controls.Add(this.flowLayoutPanel2);
+            this.tabPage1.Controls.Add(this.webBrowser1);
             this.tabPage1.Controls.Add(this.flowLayoutPanel1);
             this.tabPage1.Controls.Add(this.bunifuPanel4);
             this.tabPage1.Location = new System.Drawing.Point(4, 4);
@@ -928,164 +917,6 @@ namespace GenderEqualityApp
             this.tabPage1.Size = new System.Drawing.Size(735, 584);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dashboard";
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.AutoScroll = true;
-            this.flowLayoutPanel2.Controls.Add(this.bunifuShadowPanel5);
-            this.flowLayoutPanel2.Controls.Add(this.bunifuShadowPanel25);
-            this.flowLayoutPanel2.Controls.Add(this.bunifuShadowPanel27);
-            this.flowLayoutPanel2.Controls.Add(this.bunifuShadowPanel31);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(499, 79);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(236, 558);
-            this.flowLayoutPanel2.TabIndex = 6;
-            // 
-            // bunifuShadowPanel5
-            // 
-            this.bunifuShadowPanel5.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuShadowPanel5.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel5.BorderRadius = 10;
-            this.bunifuShadowPanel5.BorderThickness = 1;
-            this.bunifuShadowPanel5.Controls.Add(this.bunifuLabel53);
-            this.bunifuShadowPanel5.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
-            this.bunifuShadowPanel5.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
-            this.bunifuShadowPanel5.Location = new System.Drawing.Point(2, 2);
-            this.bunifuShadowPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuShadowPanel5.Name = "bunifuShadowPanel5";
-            this.bunifuShadowPanel5.PanelColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel5.PanelColor2 = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel5.ShadowColor = System.Drawing.Color.DarkGray;
-            this.bunifuShadowPanel5.ShadowDept = 2;
-            this.bunifuShadowPanel5.ShadowDepth = 7;
-            this.bunifuShadowPanel5.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
-            this.bunifuShadowPanel5.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel5.Size = new System.Drawing.Size(212, 366);
-            this.bunifuShadowPanel5.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
-            this.bunifuShadowPanel5.TabIndex = 8;
-            // 
-            // bunifuLabel53
-            // 
-            this.bunifuLabel53.AllowParentOverrides = false;
-            this.bunifuLabel53.AutoEllipsis = false;
-            this.bunifuLabel53.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel53.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel53.Font = new System.Drawing.Font("Heebo", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel53.Location = new System.Drawing.Point(14, 15);
-            this.bunifuLabel53.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuLabel53.Name = "bunifuLabel53";
-            this.bunifuLabel53.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel53.Size = new System.Drawing.Size(87, 27);
-            this.bunifuLabel53.TabIndex = 16;
-            this.bunifuLabel53.Text = "Insert Text";
-            this.bunifuLabel53.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel53.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuShadowPanel25
-            // 
-            this.bunifuShadowPanel25.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuShadowPanel25.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel25.BorderRadius = 10;
-            this.bunifuShadowPanel25.BorderThickness = 1;
-            this.bunifuShadowPanel25.Controls.Add(this.bunifuLabel74);
-            this.bunifuShadowPanel25.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
-            this.bunifuShadowPanel25.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
-            this.bunifuShadowPanel25.Location = new System.Drawing.Point(2, 372);
-            this.bunifuShadowPanel25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuShadowPanel25.Name = "bunifuShadowPanel25";
-            this.bunifuShadowPanel25.PanelColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel25.PanelColor2 = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel25.ShadowColor = System.Drawing.Color.DarkGray;
-            this.bunifuShadowPanel25.ShadowDept = 2;
-            this.bunifuShadowPanel25.ShadowDepth = 7;
-            this.bunifuShadowPanel25.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
-            this.bunifuShadowPanel25.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel25.Size = new System.Drawing.Size(212, 366);
-            this.bunifuShadowPanel25.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
-            this.bunifuShadowPanel25.TabIndex = 18;
-            // 
-            // bunifuLabel74
-            // 
-            this.bunifuLabel74.AllowParentOverrides = false;
-            this.bunifuLabel74.AutoEllipsis = false;
-            this.bunifuLabel74.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel74.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel74.Font = new System.Drawing.Font("Heebo", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel74.Location = new System.Drawing.Point(14, 15);
-            this.bunifuLabel74.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuLabel74.Name = "bunifuLabel74";
-            this.bunifuLabel74.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel74.Size = new System.Drawing.Size(87, 27);
-            this.bunifuLabel74.TabIndex = 16;
-            this.bunifuLabel74.Text = "Insert Text";
-            this.bunifuLabel74.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel74.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuShadowPanel27
-            // 
-            this.bunifuShadowPanel27.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuShadowPanel27.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel27.BorderRadius = 10;
-            this.bunifuShadowPanel27.BorderThickness = 1;
-            this.bunifuShadowPanel27.Controls.Add(this.bunifuLabel75);
-            this.bunifuShadowPanel27.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
-            this.bunifuShadowPanel27.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
-            this.bunifuShadowPanel27.Location = new System.Drawing.Point(2, 742);
-            this.bunifuShadowPanel27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuShadowPanel27.Name = "bunifuShadowPanel27";
-            this.bunifuShadowPanel27.PanelColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel27.PanelColor2 = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel27.ShadowColor = System.Drawing.Color.DarkGray;
-            this.bunifuShadowPanel27.ShadowDept = 2;
-            this.bunifuShadowPanel27.ShadowDepth = 7;
-            this.bunifuShadowPanel27.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
-            this.bunifuShadowPanel27.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel27.Size = new System.Drawing.Size(212, 366);
-            this.bunifuShadowPanel27.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
-            this.bunifuShadowPanel27.TabIndex = 19;
-            // 
-            // bunifuLabel75
-            // 
-            this.bunifuLabel75.AllowParentOverrides = false;
-            this.bunifuLabel75.AutoEllipsis = false;
-            this.bunifuLabel75.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel75.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel75.Font = new System.Drawing.Font("Heebo", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel75.Location = new System.Drawing.Point(14, 15);
-            this.bunifuLabel75.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuLabel75.Name = "bunifuLabel75";
-            this.bunifuLabel75.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel75.Size = new System.Drawing.Size(87, 27);
-            this.bunifuLabel75.TabIndex = 16;
-            this.bunifuLabel75.Text = "Insert Text";
-            this.bunifuLabel75.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel75.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuShadowPanel31
-            // 
-            this.bunifuShadowPanel31.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuShadowPanel31.BorderColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel31.BorderRadius = 10;
-            this.bunifuShadowPanel31.BorderThickness = 1;
-            this.bunifuShadowPanel31.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
-            this.bunifuShadowPanel31.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
-            this.bunifuShadowPanel31.Location = new System.Drawing.Point(2, 1112);
-            this.bunifuShadowPanel31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.bunifuShadowPanel31.Name = "bunifuShadowPanel31";
-            this.bunifuShadowPanel31.PanelColor = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel31.PanelColor2 = System.Drawing.Color.WhiteSmoke;
-            this.bunifuShadowPanel31.ShadowColor = System.Drawing.Color.DarkGray;
-            this.bunifuShadowPanel31.ShadowDept = 2;
-            this.bunifuShadowPanel31.ShadowDepth = 7;
-            this.bunifuShadowPanel31.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
-            this.bunifuShadowPanel31.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel31.Size = new System.Drawing.Size(164, 28);
-            this.bunifuShadowPanel31.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
-            this.bunifuShadowPanel31.TabIndex = 20;
             // 
             // flowLayoutPanel1
             // 
@@ -1101,7 +932,7 @@ namespace GenderEqualityApp
             this.flowLayoutPanel1.Location = new System.Drawing.Point(4, 78);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(491, 558);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(450, 558);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // bunifuShadowPanel2
@@ -1123,7 +954,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel2.ShadowDepth = 7;
             this.bunifuShadowPanel2.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
             this.bunifuShadowPanel2.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel2.Size = new System.Drawing.Size(470, 192);
+            this.bunifuShadowPanel2.Size = new System.Drawing.Size(428, 192);
             this.bunifuShadowPanel2.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel2.TabIndex = 7;
             // 
@@ -1164,7 +995,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel3.ShadowDepth = 7;
             this.bunifuShadowPanel3.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
             this.bunifuShadowPanel3.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel3.Size = new System.Drawing.Size(226, 192);
+            this.bunifuShadowPanel3.Size = new System.Drawing.Size(210, 192);
             this.bunifuShadowPanel3.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel3.TabIndex = 9;
             // 
@@ -1195,7 +1026,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel1.Controls.Add(this.bunifuLabel51);
             this.bunifuShadowPanel1.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel1.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
-            this.bunifuShadowPanel1.Location = new System.Drawing.Point(232, 198);
+            this.bunifuShadowPanel1.Location = new System.Drawing.Point(216, 198);
             this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.WhiteSmoke;
@@ -1205,7 +1036,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel1.ShadowDepth = 7;
             this.bunifuShadowPanel1.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
             this.bunifuShadowPanel1.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel1.Size = new System.Drawing.Size(240, 192);
+            this.bunifuShadowPanel1.Size = new System.Drawing.Size(214, 192);
             this.bunifuShadowPanel1.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel1.TabIndex = 10;
             // 
@@ -1246,7 +1077,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel4.ShadowDepth = 7;
             this.bunifuShadowPanel4.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
             this.bunifuShadowPanel4.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel4.Size = new System.Drawing.Size(470, 192);
+            this.bunifuShadowPanel4.Size = new System.Drawing.Size(428, 192);
             this.bunifuShadowPanel4.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel4.TabIndex = 11;
             // 
@@ -1286,7 +1117,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel30.ShadowDepth = 7;
             this.bunifuShadowPanel30.ShadowStyle = Bunifu.UI.WinForms.BunifuShadowPanel.ShadowStyles.Surrounded;
             this.bunifuShadowPanel30.ShadowTopLeftVisible = false;
-            this.bunifuShadowPanel30.Size = new System.Drawing.Size(470, 49);
+            this.bunifuShadowPanel30.Size = new System.Drawing.Size(428, 49);
             this.bunifuShadowPanel30.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel30.TabIndex = 12;
             // 
@@ -4536,6 +4367,17 @@ namespace GenderEqualityApp
             this.btnClose.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(459, 80);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(266, 523);
+            this.webBrowser1.TabIndex = 6;
+            this.webBrowser1.Url = new System.Uri("https://news.google.com/topics/CAAqKAgKIiJDQkFTRXdvS0wyMHZNREk0TVdOeE1SSUZaVzR0Uj" +
+        "BJb0FBUAE?hl=en-PH&gl=PH&ceid=PH%3Aen", System.UriKind.Absolute);
+            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4562,13 +4404,6 @@ namespace GenderEqualityApp
             this.bunifuPanel2.ResumeLayout(false);
             this.bunifuPages1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.bunifuShadowPanel5.ResumeLayout(false);
-            this.bunifuShadowPanel5.PerformLayout();
-            this.bunifuShadowPanel25.ResumeLayout(false);
-            this.bunifuShadowPanel25.PerformLayout();
-            this.bunifuShadowPanel27.ResumeLayout(false);
-            this.bunifuShadowPanel27.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.bunifuShadowPanel2.ResumeLayout(false);
             this.bunifuShadowPanel2.PerformLayout();
@@ -4688,8 +4523,6 @@ namespace GenderEqualityApp
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel2;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel5;
         private System.Windows.Forms.TabPage About;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel6;
         private System.Windows.Forms.Label label1;
@@ -4723,7 +4556,6 @@ namespace GenderEqualityApp
         private System.Windows.Forms.PictureBox pictureBox3;
         private Bunifu.UI.WinForms.BunifuPictureBox AppIcon;
         private Bunifu.UI.WinForms.BunifuLabel AppName;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel53;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel49;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel50;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel51;
@@ -4860,11 +4692,6 @@ namespace GenderEqualityApp
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel30;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel32;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel34;
-        private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel25;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel74;
-        private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel27;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel75;
-        private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel31;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel26;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel28;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel33;
@@ -4873,5 +4700,6 @@ namespace GenderEqualityApp
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel78;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel77;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.WebBrowser webBrowser1;
     }
 }
