@@ -67,13 +67,13 @@ namespace GenderEqualityApp
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Archivo Black", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(228)))), ((int)(((byte)(234)))));
             this.label1.Location = new System.Drawing.Point(10, 40);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(175, 20, 6, 6);
-            this.label1.Size = new System.Drawing.Size(768, 84);
+            this.label1.Size = new System.Drawing.Size(661, 77);
             this.label1.TabIndex = 0;
             this.label1.Text = "Log In to Your Account";
             // 
@@ -81,12 +81,12 @@ namespace GenderEqualityApp
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
             this.label2.Location = new System.Drawing.Point(209, 186);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 31);
+            this.label2.Size = new System.Drawing.Size(110, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Username";
             // 
@@ -94,12 +94,12 @@ namespace GenderEqualityApp
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
             this.label3.Location = new System.Drawing.Point(209, 281);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 31);
+            this.label3.Size = new System.Drawing.Size(106, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
             // 
@@ -108,11 +108,11 @@ namespace GenderEqualityApp
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel1.Font = new System.Drawing.Font("Archivo Medium", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(150)))), ((int)(((byte)(76)))));
             this.linkLabel1.Location = new System.Drawing.Point(244, 497);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(445, 30);
+            this.linkLabel1.Size = new System.Drawing.Size(484, 25);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Don\'t have an account yet? Click here to sign up!";
@@ -147,7 +147,7 @@ namespace GenderEqualityApp
             this.bunifuButton21.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton21.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton21.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
-            this.bunifuButton21.Font = new System.Drawing.Font("Archivo SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton21.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton21.ForeColor = System.Drawing.Color.White;
             this.bunifuButton21.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuButton21.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -430,12 +430,12 @@ namespace GenderEqualityApp
             this.AppName.AllowParentOverrides = false;
             this.AppName.AutoEllipsis = false;
             this.AppName.CursorType = null;
-            this.AppName.Font = new System.Drawing.Font("Gothic A1 Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AppName.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(211)))));
             this.AppName.Location = new System.Drawing.Point(49, 11);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.AppName.Size = new System.Drawing.Size(66, 21);
+            this.AppName.Size = new System.Drawing.Size(73, 16);
             this.AppName.TabIndex = 38;
             this.AppName.Text = "App Name";
             this.AppName.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
