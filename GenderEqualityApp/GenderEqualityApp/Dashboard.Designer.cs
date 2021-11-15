@@ -1172,9 +1172,9 @@ namespace GenderEqualityApp
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(15, 16, 4, 5);
-            this.label1.Size = new System.Drawing.Size(186, 62);
+            this.label1.Size = new System.Drawing.Size(117, 62);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Dashboard";
+            this.label1.Text = "Home";
             // 
             // bunifuLabel2
             // 
