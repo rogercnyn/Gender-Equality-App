@@ -62,14 +62,10 @@ namespace GenderEqualityApp
             this.Close();
         }
 
-        private void bunifuLabel72_Click(object sender, EventArgs e)
+        private void bunifuLabel51_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void bunifuLabel109_Click(object sender, EventArgs e)
-        {
-
+            Campaign Form = new Campaign();
+            Form.Show();
         }
     }
 }
