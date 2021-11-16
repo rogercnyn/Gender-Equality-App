@@ -121,7 +121,7 @@
   <data name="bunifuButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPMAAABICAYAAAAj+8OJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKkSURBVHhe7duhUhtBGMDxk5VIZB8BWckbwEwSirscqhKJ
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKkSURBVHhe7duhUhtBGMDxk5VIZB8BWckbwEwSirscqhKJ
         zBsgeQQkElmJrKxEAklmkMh293ItA11KoQ29++b3zfw6Q29zUf/ZTTiq18z1Xv1hMaq3byb1dDFpZsDf
         a3tKXWVdav9+0ptsXk/qT4tRc57e9BuwfvNxc5HaO7r6WL/vUnz93O7UG+mmsxTx3eM3At7Ocjw9yZtq
         l+bLZnWMbm5LNwb+g7Spzsf1fpfon83q7G43hp6adan+ftqQyzcAeuPguEu2PKtv0uzIMAT5S+ku3YeT
@@ -139,7 +139,7 @@
   <data name="bunifuPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA5UAAAJbCAYAAAB0PbCjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAA4eSURBVHhe7dnJaQRAEATB9d+e9U9CjxUIHdCpekbAPHo8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAA4eSURBVHhe7dnJaQRAEATB9d+e9U9CjxUIHdCpekbAPHo8
         SOoBAAAAE8/n8+313G632+12u91ut9vt/ul+/X369gEAAAB/+NKRohIAAIALHQkAAEBmqQQAAGBDVAIA
         AHBhqQQAACDTkQAAAGSWSgAAADZEJQAAABeWSgAAADIdCQAAQGapBAAAYENUAgAAcGGpBAAAINORAAAA
         ZJZKAAAANkQlAAAAF5ZKAAAAMh0JAABAZqkEAABgQ1QCAABwYakEAAAg05EAAABklkoAAAA2RCUAAAAX
@@ -205,22 +205,22 @@
   </data>
   <data name="loginTBXPW.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAWkAAAArCAYAAAC6nHmdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADTSURBVHhe7dQxDcQwAARB80dlyzAeRgAksuTmGWwxI11z
+        iVBORw0KGgoAAAANSUhEUgAAAWkAAAAnCAYAAADNXrnmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADFSURBVHhe7dQxDcQwAARB80dlyzAeRgAksuTmGWwxI11z
         AHYAELf3/s05XzMza+x0+SZ6jHMA0HG6fBMt0gA1Ig0QJtIAYSINECbSAGEiDRAm0gBhIg0QJtIAYSIN
         ECbSAGEiDRAm0gBhIg0QJtIAYSINECbSAGEiDRAm0gBhIg0QJtIAYSINECbSAGEiDRAm0gBhIg0QJtIA
-        YSINECbSAGEiDRAm0gBhIg0QJtIAYSINECbSAGEiDRAm0gBhIg0Q9hfptdZzDjMza+x0+SYagKYxProo
-        108Q1gjEAAAAAElFTkSuQmCC
+        YSINECbSAGEiDRAm0gBhIg0QJtIAYSINEPYX6bXWcw4zM2vsdPkmGoCmMT4pjoJdoOW0nAAAAABJRU5E
+        rkJggg==
 </value>
   </data>
   <data name="loginTBXUN.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAWkAAAArCAYAAAC6nHmdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADTSURBVHhe7dQxDcQwAARB80dlyzAeRgAksuTmGWwxI11z
+        iVBORw0KGgoAAAANSUhEUgAAAWkAAAAnCAYAAADNXrnmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADFSURBVHhe7dQxDcQwAARB80dlyzAeRgAksuTmGWwxI11z
         AHYAELf3/s05XzMza+x0+SZ6jHMA0HG6fBMt0gA1Ig0QJtIAYSINECbSAGEiDRAm0gBhIg0QJtIAYSIN
         ECbSAGEiDRAm0gBhIg0QJtIAYSINECbSAGEiDRAm0gBhIg0QJtIAYSINECbSAGEiDRAm0gBhIg0QJtIA
-        YSINECbSAGEiDRAm0gBhIg0QJtIAYSINECbSAGEiDRAm0gBhIg0Q9hfptdZzDjMza+x0+SYagKYxProo
-        108Q1gjEAAAAAElFTkSuQmCC
+        YSINECbSAGEiDRAm0gBhIg0QJtIAYSINEPYX6bXWcw4zM2vsdPkmGoCmMT4pjoJdoOW0nAAAAABJRU5E
+        rkJggg==
 </value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -2593,6 +2593,6 @@
 </value>
   </data>
   <data name="AppName.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Gothic A1 Black'; font-size: 7.8pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(235, 235, 211); text-align: left; }</value>
+    <value>#bunifu-label { padding: 0px; font-family: 'Microsoft Sans Serif'; font-size: 7.8pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(235, 235, 211); text-align: left; }</value>
   </data>
 </root>
