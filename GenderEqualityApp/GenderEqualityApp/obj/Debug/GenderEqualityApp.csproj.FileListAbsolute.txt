@@ -166,3 +166,8 @@ C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqual
 C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Campaign.resources
 C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.HeatMap.resources
 C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Tips.resources
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.About.resources
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Articles.resources
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Campaign.resources
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.HeatMap.resources
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Tips.resources

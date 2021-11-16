@@ -19,7 +19,7 @@ namespace GenderEqualityApp
 
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
-            bunifuPages1.SetPage("Dashboard");
+            bunifuPages1.SetPage("Home");
         }
 
         private void bunifuButton22_Click(object sender, EventArgs e)
@@ -29,7 +29,7 @@ namespace GenderEqualityApp
 
         private void bunifuButton23_Click(object sender, EventArgs e)
         {
-            bunifuPages1.SetPage("Articles");
+            bunifuPages1.SetPage("Report");
         }
 
         private void bunifuButton24_Click(object sender, EventArgs e)
