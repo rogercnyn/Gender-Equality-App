@@ -2351,7 +2351,6 @@ namespace GenderEqualityApp
             this.bunifuLabel109.Text = "Prepare to react";
             this.bunifuLabel109.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             this.bunifuLabel109.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            this.bunifuLabel109.Click += new System.EventHandler(this.bunifuLabel109_Click);
             // 
             // bunifuLabel78
             // 
