@@ -80,5 +80,10 @@ namespace GenderEqualityApp
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

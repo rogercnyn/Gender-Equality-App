@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LiveCharts.WinForms;
 
 namespace GenderEqualityApp
 {
@@ -25,6 +26,8 @@ namespace GenderEqualityApp
         private void bunifuButton22_Click(object sender, EventArgs e)
         {
             bunifuPages1.SetPage("Heat Map");
+            HeatMap Form = new HeatMap();
+            Form.Show();
         }
 
         private void bunifuButton23_Click(object sender, EventArgs e)
@@ -35,6 +38,7 @@ namespace GenderEqualityApp
         private void bunifuButton24_Click(object sender, EventArgs e)
         {
             bunifuPages1.SetPage("Tips");
+            
         }
 
         private void bunifuButton25_Click(object sender, EventArgs e)
@@ -71,6 +75,31 @@ namespace GenderEqualityApp
         {
             Campaign Form = new Campaign();
             Form.Show();
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void bunifuShadowPanel8_ControlAdded(object sender, ControlEventArgs e)
+        {
+            LiveCharts.WinForms.GeoMap geoMap = new LiveCharts.WinForms.GeoMap();
+        }
+
+        private void bunifuPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuShadowPanel8_ControlAdded_1(object sender, ControlEventArgs e)
+        {
+
         }
     }
 }
