@@ -171,3 +171,4 @@ D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Progr
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Campaign.resources
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.HeatMap.resources
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Tips.resources
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.User_Report.resources

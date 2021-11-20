@@ -70,5 +70,15 @@ namespace GenderEqualityApp
             linkLabel1.LinkVisited = true;
             System.Diagnostics.Process.Start("https://womensmarchglobal.org/");
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
