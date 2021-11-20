@@ -62,6 +62,7 @@ namespace GenderEqualityApp
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.bunifuLabel49 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel3 = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.bunifuLabel50 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForms.BunifuShadowPanel();
             this.label9 = new System.Windows.Forms.Label();
@@ -70,8 +71,10 @@ namespace GenderEqualityApp
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.bunifuLabel51 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.lblCamp = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel4 = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.bunifuLabel52 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuShadowPanel30 = new Bunifu.UI.WinForms.BunifuShadowPanel();
             this.bunifuPanel4 = new Bunifu.UI.WinForms.BunifuPanel();
@@ -256,9 +259,6 @@ namespace GenderEqualityApp
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.btnMin = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.btnClose = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AppLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -271,11 +271,13 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.bunifuShadowPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.bunifuShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.bunifuShadowPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.bunifuPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -332,8 +334,6 @@ namespace GenderEqualityApp
             ((System.ComponentModel.ISupportInitialize)(this.AppIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuPanel1
@@ -947,7 +947,7 @@ namespace GenderEqualityApp
             // webBrowser1
             // 
             this.webBrowser1.Location = new System.Drawing.Point(612, 98);
-            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(27, 25);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(355, 644);
@@ -1062,6 +1062,17 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel3.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel3.TabIndex = 9;
             // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(19, 55);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(239, 160);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 25;
+            this.pictureBox19.TabStop = false;
+            // 
             // bunifuLabel50
             // 
             this.bunifuLabel50.AllowParentOverrides = false;
@@ -1092,7 +1103,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel1.Controls.Add(this.pictureBox16);
             this.bunifuShadowPanel1.Controls.Add(this.pictureBox15);
             this.bunifuShadowPanel1.Controls.Add(this.pictureBox14);
-            this.bunifuShadowPanel1.Controls.Add(this.bunifuLabel51);
+            this.bunifuShadowPanel1.Controls.Add(this.lblCamp);
             this.bunifuShadowPanel1.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel1.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(289, 242);
@@ -1172,24 +1183,24 @@ namespace GenderEqualityApp
             this.pictureBox14.TabIndex = 17;
             this.pictureBox14.TabStop = false;
             // 
-            // bunifuLabel51
+            // lblCamp
             // 
-            this.bunifuLabel51.AllowParentOverrides = false;
-            this.bunifuLabel51.AutoEllipsis = false;
-            this.bunifuLabel51.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuLabel51.CursorType = System.Windows.Forms.Cursors.Hand;
-            this.bunifuLabel51.Font = new System.Drawing.Font("Heebo", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel51.Location = new System.Drawing.Point(19, 17);
-            this.bunifuLabel51.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.bunifuLabel51.Name = "bunifuLabel51";
-            this.bunifuLabel51.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel51.Size = new System.Drawing.Size(116, 34);
-            this.bunifuLabel51.TabIndex = 16;
-            this.bunifuLabel51.Text = "Campaigns";
-            this.bunifuLabel51.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel51.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            this.bunifuLabel51.Click += new System.EventHandler(this.bunifuLabel51_Click_1);
+            this.lblCamp.AllowParentOverrides = false;
+            this.lblCamp.AutoEllipsis = false;
+            this.lblCamp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblCamp.CursorType = System.Windows.Forms.Cursors.Hand;
+            this.lblCamp.Font = new System.Drawing.Font("Heebo", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCamp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
+            this.lblCamp.Location = new System.Drawing.Point(19, 17);
+            this.lblCamp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lblCamp.Name = "lblCamp";
+            this.lblCamp.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblCamp.Size = new System.Drawing.Size(116, 34);
+            this.lblCamp.TabIndex = 16;
+            this.lblCamp.Text = "Campaigns";
+            this.lblCamp.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lblCamp.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lblCamp.Click += new System.EventHandler(this.lblCamp_Click);
             // 
             // bunifuShadowPanel4
             // 
@@ -1215,6 +1226,27 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel4.Size = new System.Drawing.Size(571, 236);
             this.bunifuShadowPanel4.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             this.bunifuShadowPanel4.TabIndex = 11;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(13, 77);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(234, 93);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "Do not be ashamed of \r\nyour story. It will inspire \r\nothers. ";
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(263, 37);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(279, 171);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 24;
+            this.pictureBox18.TabStop = false;
             // 
             // bunifuLabel52
             // 
@@ -1706,7 +1738,7 @@ namespace GenderEqualityApp
             this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage3.Size = new System.Drawing.Size(983, 709);
+            this.tabPage3.Size = new System.Drawing.Size(983, 710);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Report";
             // 
@@ -2187,7 +2219,7 @@ namespace GenderEqualityApp
             this.tabPage4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage4.Size = new System.Drawing.Size(983, 709);
+            this.tabPage4.Size = new System.Drawing.Size(983, 710);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Tips";
             // 
@@ -2785,7 +2817,7 @@ namespace GenderEqualityApp
             this.tabPage5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage5.Size = new System.Drawing.Size(983, 709);
+            this.tabPage5.Size = new System.Drawing.Size(983, 710);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Profile";
             // 
@@ -3820,7 +3852,7 @@ namespace GenderEqualityApp
             this.About.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.About.Name = "About";
             this.About.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.About.Size = new System.Drawing.Size(983, 709);
+            this.About.Size = new System.Drawing.Size(983, 710);
             this.About.TabIndex = 2;
             this.About.Text = "About";
             // 
@@ -4672,38 +4704,6 @@ namespace GenderEqualityApp
             this.btnClose.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(263, 37);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(279, 171);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 24;
-            this.pictureBox18.TabStop = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(13, 77);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(234, 93);
-            this.label11.TabIndex = 24;
-            this.label11.Text = "Do not be ashamed of \r\nyour story. It will inspire \r\nothers. ";
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(19, 55);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(239, 160);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 25;
-            this.pictureBox19.TabStop = false;
-            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -4736,6 +4736,7 @@ namespace GenderEqualityApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.bunifuShadowPanel3.ResumeLayout(false);
             this.bunifuShadowPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.bunifuShadowPanel1.ResumeLayout(false);
             this.bunifuShadowPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -4743,6 +4744,7 @@ namespace GenderEqualityApp
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.bunifuShadowPanel4.ResumeLayout(false);
             this.bunifuShadowPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.bunifuPanel4.ResumeLayout(false);
             this.bunifuPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).EndInit();
@@ -4825,8 +4827,6 @@ namespace GenderEqualityApp
             ((System.ComponentModel.ISupportInitialize)(this.AppIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4890,7 +4890,7 @@ namespace GenderEqualityApp
         private Bunifu.UI.WinForms.BunifuLabel AppName;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel49;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel50;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel51;
+        private Bunifu.UI.WinForms.BunifuLabel lblCamp;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel52;
         private System.Windows.Forms.PictureBox pictureBox5;
         private Bunifu.UI.WinForms.BunifuShadowPanel bunifuShadowPanel9;

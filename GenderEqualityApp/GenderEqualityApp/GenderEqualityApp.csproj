@@ -162,6 +162,12 @@
     <Compile Include="Tips.Designer.cs">
       <DependentUpon>Tips.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Report.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Report.Designer.cs">
+      <DependentUpon>User Report.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tips.resx">
       <DependentUpon>Tips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Report.resx">
+      <DependentUpon>User Report.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
