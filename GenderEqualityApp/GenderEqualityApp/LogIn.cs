@@ -23,9 +23,6 @@ namespace GenderEqualityApp
 
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Dashboard dashboardform = new Dashboard();
-            dashboardform.Show();
 
             /*conn.Open();
             cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN and userPassword = @paramPW", conn);
@@ -34,10 +31,10 @@ namespace GenderEqualityApp
             SqlDataReader dr = cmd.ExecuteReader();
             if (dr.Read())
             {
-                this.Hide();
+                this.Hide();*/
                 Dashboard dashboardform = new Dashboard();
                 dashboardform.Show();
-            }
+            /*}
             else
             {
                 MessageBox.Show("Try again.");
@@ -48,9 +45,9 @@ namespace GenderEqualityApp
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            /*this.Hide();
+            this.Hide();
             RegForm registrationform = new RegForm();
-            registrationform.Show();*/
+            registrationform.Show();
         }
 
         private void btnMin_Click(object sender, EventArgs e)
