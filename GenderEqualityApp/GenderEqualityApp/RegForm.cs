@@ -29,6 +29,14 @@ namespace GenderEqualityApp
                 cmd = new SqlCommand("INSERT INTO usersdata VALUES ('" + tbxUN.Text + "','" + tbxPW.Text + "','" + tbxFN.Text + "','" + tbxMN.Text + "','" + tbxLN.Text + "','" + tbxG.SelectedItem.ToString() + "','" + tbxEA.Text + "','" + tbxBday.Text + "')", conn);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Registered Successfully!");
+                tbxUN.Text = string.Empty;
+                tbxPW.Text = string.Empty;
+                tbxFN.Text = string.Empty;
+                tbxMN.Text = string.Empty;
+                tbxLN.Text = string.Empty;
+                tbxG.Text = string.Empty;
+                tbxEA.Text = string.Empty;
+                tbxBday.Text = string.Empty;
                 conn.Close();
                 this.Hide();
                 LogIn loginform = new LogIn();
