@@ -1,0 +1,10 @@
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\bin\Debug\userReport.exe.config
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\bin\Debug\userReport.exe
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\bin\Debug\userReport.pdb
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\obj\Debug\userReport.csproj.AssemblyReference.cache
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\obj\Debug\userReport.Properties.Resources.resources
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\obj\Debug\userReport.UserControlDb.resources
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\obj\Debug\userReport.csproj.GenerateResource.cache
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\obj\Debug\userReport.csproj.CoreCompileInputs.cache
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\obj\Debug\userReport.exe
+C:\Users\acer\OneDrive\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\userReport\obj\Debug\userReport.pdb

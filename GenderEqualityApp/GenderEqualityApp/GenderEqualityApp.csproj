@@ -234,5 +234,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\userReport\userReport.csproj">
+      <Project>{4141d6e4-3eba-446b-9fc9-374d52421a3a}</Project>
+      <Name>userReport</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
