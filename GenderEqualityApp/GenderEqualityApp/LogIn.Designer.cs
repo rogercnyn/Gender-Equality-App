@@ -73,7 +73,7 @@ namespace GenderEqualityApp
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(175, 20, 6, 6);
-            this.label1.Size = new System.Drawing.Size(874, 96);
+            this.label1.Size = new System.Drawing.Size(768, 84);
             this.label1.TabIndex = 0;
             this.label1.Text = "Log In to Your Account";
             // 
@@ -86,7 +86,7 @@ namespace GenderEqualityApp
             this.label2.Location = new System.Drawing.Point(209, 186);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 38);
+            this.label2.Size = new System.Drawing.Size(112, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "Username";
             // 
@@ -99,7 +99,7 @@ namespace GenderEqualityApp
             this.label3.Location = new System.Drawing.Point(209, 281);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 38);
+            this.label3.Size = new System.Drawing.Size(107, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password";
             // 
@@ -112,7 +112,7 @@ namespace GenderEqualityApp
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(150)))), ((int)(((byte)(76)))));
             this.linkLabel1.Location = new System.Drawing.Point(244, 497);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(539, 36);
+            this.linkLabel1.Size = new System.Drawing.Size(445, 30);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Don\'t have an account yet? Click here to sign up!";
@@ -296,7 +296,7 @@ namespace GenderEqualityApp
             this.loginTBXPW.SelectionLength = 0;
             this.loginTBXPW.SelectionStart = 0;
             this.loginTBXPW.ShortcutsEnabled = true;
-            this.loginTBXPW.Size = new System.Drawing.Size(361, 47);
+            this.loginTBXPW.Size = new System.Drawing.Size(361, 43);
             this.loginTBXPW.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.loginTBXPW.TabIndex = 9;
             this.loginTBXPW.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -371,7 +371,7 @@ namespace GenderEqualityApp
             this.loginTBXUN.SelectionLength = 0;
             this.loginTBXUN.SelectionStart = 0;
             this.loginTBXUN.ShortcutsEnabled = true;
-            this.loginTBXUN.Size = new System.Drawing.Size(361, 47);
+            this.loginTBXUN.Size = new System.Drawing.Size(361, 43);
             this.loginTBXUN.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.loginTBXUN.TabIndex = 8;
             this.loginTBXUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -435,7 +435,7 @@ namespace GenderEqualityApp
             this.AppName.Location = new System.Drawing.Point(49, 11);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.AppName.Size = new System.Drawing.Size(81, 25);
+            this.AppName.Size = new System.Drawing.Size(66, 21);
             this.AppName.TabIndex = 38;
             this.AppName.Text = "App Name";
             this.AppName.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -479,7 +479,7 @@ namespace GenderEqualityApp
             // 
             // LogIn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(52)))), ((int)(((byte)(96)))));
             this.ClientSize = new System.Drawing.Size(937, 653);

@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel">
+      <HintPath>C:\Users\acer\Desktop\School Files\iACADEMY Files\Subjects\2nd Semester\Data Structures\Samples\Test_UI\packages\Bunifu.UI.WinForms.5.3.0\lib\net40\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,6 +61,7 @@
     <Compile Include="UserControlDb.Designer.cs">
       <DependentUpon>UserControlDb.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
