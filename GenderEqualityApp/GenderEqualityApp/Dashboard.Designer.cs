@@ -1265,7 +1265,7 @@ namespace GenderEqualityApp
             this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.tabPage3.Size = new System.Drawing.Size(735, 575);
+            this.tabPage3.Size = new System.Drawing.Size(735, 532);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Report";
             // 
@@ -1596,7 +1596,7 @@ namespace GenderEqualityApp
             this.tabPage4.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.tabPage4.Size = new System.Drawing.Size(735, 575);
+            this.tabPage4.Size = new System.Drawing.Size(735, 532);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Tips";
             // 
@@ -3229,7 +3229,7 @@ namespace GenderEqualityApp
             this.About.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.About.Name = "About";
             this.About.Padding = new System.Windows.Forms.Padding(2, 1, 2, 1);
-            this.About.Size = new System.Drawing.Size(735, 575);
+            this.About.Size = new System.Drawing.Size(735, 532);
             this.About.TabIndex = 2;
             this.About.Text = "About";
             // 

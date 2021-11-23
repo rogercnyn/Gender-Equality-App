@@ -114,7 +114,7 @@ namespace GenderEqualityApp
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(16, 21);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(106, 116);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -125,7 +125,7 @@ namespace GenderEqualityApp
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(16, 21);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(106, 116);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -136,7 +136,7 @@ namespace GenderEqualityApp
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(16, 21);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(112, 116);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -169,7 +169,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel8.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel8.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel8.Location = new System.Drawing.Point(16, 24);
-            this.bunifuShadowPanel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuShadowPanel8.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuShadowPanel8.Name = "bunifuShadowPanel8";
             this.bunifuShadowPanel8.PanelColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuShadowPanel8.PanelColor2 = System.Drawing.Color.WhiteSmoke;
@@ -194,7 +194,7 @@ namespace GenderEqualityApp
             this.bunifuPanel5.Controls.Add(this.label2);
             this.bunifuPanel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.bunifuPanel5.Location = new System.Drawing.Point(8, 32);
-            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel5.Name = "bunifuPanel5";
             this.bunifuPanel5.ShowBorders = true;
             this.bunifuPanel5.Size = new System.Drawing.Size(687, 71);
@@ -205,7 +205,7 @@ namespace GenderEqualityApp
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(381, -73);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(331, 222);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -245,7 +245,7 @@ namespace GenderEqualityApp
             this.bunifuPanel1.Controls.Add(this.bunifuShadowPanel8);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.bunifuPanel1.Location = new System.Drawing.Point(8, 89);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.Padding = new System.Windows.Forms.Padding(8, 16, 8, 8);
             this.bunifuPanel1.ShowBorders = true;
@@ -265,7 +265,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel2.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel2.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel2.Location = new System.Drawing.Point(16, 333);
-            this.bunifuShadowPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuShadowPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuShadowPanel2.Name = "bunifuShadowPanel2";
             this.bunifuShadowPanel2.PanelColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuShadowPanel2.PanelColor2 = System.Drawing.Color.WhiteSmoke;
@@ -319,7 +319,7 @@ namespace GenderEqualityApp
             this.bunifuShadowPanel1.FillStyle = Bunifu.UI.WinForms.BunifuShadowPanel.FillStyles.Solid;
             this.bunifuShadowPanel1.GradientMode = Bunifu.UI.WinForms.BunifuShadowPanel.GradientModes.Vertical;
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(16, 179);
-            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bunifuShadowPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.WhiteSmoke;
             this.bunifuShadowPanel1.PanelColor2 = System.Drawing.Color.WhiteSmoke;
@@ -381,7 +381,7 @@ namespace GenderEqualityApp
             this.AppIcon.Image = ((System.Drawing.Image)(resources.GetObject("AppIcon.Image")));
             this.AppIcon.IsCircle = false;
             this.AppIcon.Location = new System.Drawing.Point(10, 6);
-            this.AppIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AppIcon.Margin = new System.Windows.Forms.Padding(2);
             this.AppIcon.Name = "AppIcon";
             this.AppIcon.Size = new System.Drawing.Size(22, 22);
             this.AppIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -397,7 +397,7 @@ namespace GenderEqualityApp
             this.AppName.Font = new System.Drawing.Font("Gothic A1 Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(211)))));
             this.AppName.Location = new System.Drawing.Point(37, 9);
-            this.AppName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AppName.Margin = new System.Windows.Forms.Padding(2);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.AppName.Size = new System.Drawing.Size(50, 16);
@@ -416,7 +416,7 @@ namespace GenderEqualityApp
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.IsCircle = false;
             this.btnClose.Location = new System.Drawing.Point(673, 6);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(22, 22);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -435,7 +435,7 @@ namespace GenderEqualityApp
             this.btnMin.Image = ((System.Drawing.Image)(resources.GetObject("btnMin.Image")));
             this.btnMin.IsCircle = false;
             this.btnMin.Location = new System.Drawing.Point(647, 6);
-            this.btnMin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMin.Margin = new System.Windows.Forms.Padding(2);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(22, 22);
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -457,7 +457,7 @@ namespace GenderEqualityApp
             this.Controls.Add(this.bunifuPanel5);
             this.Controls.Add(this.bunifuPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Campaign";
             this.Padding = new System.Windows.Forms.Padding(8, 32, 8, 8);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
