@@ -55,8 +55,10 @@ namespace GenderEqualityApp
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.tbxG = new Bunifu.UI.WinForms.BunifuDropdown();
             this.label1 = new System.Windows.Forms.Label();
             this.tbxBday = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.tbxPW = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -81,13 +83,16 @@ namespace GenderEqualityApp
             this.AppName = new Bunifu.UI.WinForms.BunifuLabel();
             this.btnClose = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.btnMin = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.tbxG = new Bunifu.UI.WinForms.BunifuDropdown();
+            this.label10 = new System.Windows.Forms.Label();
+            this.regPic = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.bunifuButton22 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AppIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.regPic)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuPanel1
@@ -98,6 +103,9 @@ namespace GenderEqualityApp
             this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
             this.bunifuPanel1.BorderRadius = 3;
             this.bunifuPanel1.BorderThickness = 1;
+            this.bunifuPanel1.Controls.Add(this.bunifuButton22);
+            this.bunifuPanel1.Controls.Add(this.regPic);
+            this.bunifuPanel1.Controls.Add(this.label10);
             this.bunifuPanel1.Controls.Add(this.tbxG);
             this.bunifuPanel1.Controls.Add(this.label1);
             this.bunifuPanel1.Controls.Add(this.tbxBday);
@@ -124,8 +132,56 @@ namespace GenderEqualityApp
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.Padding = new System.Windows.Forms.Padding(11, 25, 11, 12);
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(1032, 754);
+            this.bunifuPanel1.Size = new System.Drawing.Size(1032, 974);
             this.bunifuPanel1.TabIndex = 12;
+            // 
+            // tbxG
+            // 
+            this.tbxG.BackColor = System.Drawing.Color.Transparent;
+            this.tbxG.BackgroundColor = System.Drawing.Color.White;
+            this.tbxG.BorderColor = System.Drawing.Color.Silver;
+            this.tbxG.BorderRadius = 1;
+            this.tbxG.Color = System.Drawing.Color.Silver;
+            this.tbxG.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
+            this.tbxG.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.tbxG.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.tbxG.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.tbxG.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.tbxG.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
+            this.tbxG.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.tbxG.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
+            this.tbxG.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tbxG.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.tbxG.FillDropDown = true;
+            this.tbxG.FillIndicator = false;
+            this.tbxG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tbxG.Font = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.tbxG.ForeColor = System.Drawing.Color.Black;
+            this.tbxG.FormattingEnabled = true;
+            this.tbxG.Icon = null;
+            this.tbxG.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.tbxG.IndicatorColor = System.Drawing.Color.DarkGray;
+            this.tbxG.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
+            this.tbxG.IndicatorThickness = 2;
+            this.tbxG.IsDropdownOpened = false;
+            this.tbxG.ItemBackColor = System.Drawing.Color.White;
+            this.tbxG.ItemBorderColor = System.Drawing.Color.White;
+            this.tbxG.ItemForeColor = System.Drawing.Color.Black;
+            this.tbxG.ItemHeight = 26;
+            this.tbxG.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
+            this.tbxG.ItemHighLightForeColor = System.Drawing.Color.White;
+            this.tbxG.Items.AddRange(new object[] {
+            "Male",
+            "Female",
+            "Others"});
+            this.tbxG.ItemTopMargin = 3;
+            this.tbxG.Location = new System.Drawing.Point(86, 780);
+            this.tbxG.Name = "tbxG";
+            this.tbxG.Size = new System.Drawing.Size(332, 32);
+            this.tbxG.TabIndex = 26;
+            this.tbxG.Text = null;
+            this.tbxG.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
+            this.tbxG.TextLeftMargin = 5;
             // 
             // label1
             // 
@@ -160,7 +216,7 @@ namespace GenderEqualityApp
             this.tbxBday.IconColor = System.Drawing.Color.Gray;
             this.tbxBday.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
             this.tbxBday.LeftTextMargin = 5;
-            this.tbxBday.Location = new System.Drawing.Point(621, 292);
+            this.tbxBday.Location = new System.Drawing.Point(620, 530);
             this.tbxBday.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxBday.MinimumSize = new System.Drawing.Size(4, 32);
             this.tbxBday.Name = "tbxBday";
@@ -195,7 +251,7 @@ namespace GenderEqualityApp
             this.tbxPW.IconRight = null;
             this.tbxPW.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbxPW.Lines = new string[0];
-            this.tbxPW.Location = new System.Drawing.Point(621, 544);
+            this.tbxPW.Location = new System.Drawing.Point(620, 782);
             this.tbxPW.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxPW.MaxLength = 32767;
             this.tbxPW.MinimumSize = new System.Drawing.Size(1, 1);
@@ -249,7 +305,7 @@ namespace GenderEqualityApp
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label6.Location = new System.Drawing.Point(614, 501);
+            this.label6.Location = new System.Drawing.Point(613, 739);
             this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(129, 38);
@@ -284,7 +340,7 @@ namespace GenderEqualityApp
             this.tbxUN.IconRight = null;
             this.tbxUN.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbxUN.Lines = new string[0];
-            this.tbxUN.Location = new System.Drawing.Point(621, 416);
+            this.tbxUN.Location = new System.Drawing.Point(620, 654);
             this.tbxUN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxUN.MaxLength = 32767;
             this.tbxUN.MinimumSize = new System.Drawing.Size(1, 1);
@@ -338,7 +394,7 @@ namespace GenderEqualityApp
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label7.Location = new System.Drawing.Point(614, 374);
+            this.label7.Location = new System.Drawing.Point(613, 612);
             this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(134, 38);
@@ -351,7 +407,7 @@ namespace GenderEqualityApp
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label8.Location = new System.Drawing.Point(614, 250);
+            this.label8.Location = new System.Drawing.Point(613, 488);
             this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(115, 38);
@@ -386,7 +442,7 @@ namespace GenderEqualityApp
             this.tbxEA.IconRight = null;
             this.tbxEA.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbxEA.Lines = new string[0];
-            this.tbxEA.Location = new System.Drawing.Point(621, 171);
+            this.tbxEA.Location = new System.Drawing.Point(620, 409);
             this.tbxEA.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxEA.MaxLength = 32767;
             this.tbxEA.MinimumSize = new System.Drawing.Size(1, 1);
@@ -440,7 +496,7 @@ namespace GenderEqualityApp
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label9.Location = new System.Drawing.Point(614, 129);
+            this.label9.Location = new System.Drawing.Point(613, 367);
             this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(183, 38);
@@ -453,7 +509,7 @@ namespace GenderEqualityApp
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label5.Location = new System.Drawing.Point(80, 501);
+            this.label5.Location = new System.Drawing.Point(79, 739);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(101, 38);
@@ -488,7 +544,7 @@ namespace GenderEqualityApp
             this.tbxLN.IconRight = null;
             this.tbxLN.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbxLN.Lines = new string[0];
-            this.tbxLN.Location = new System.Drawing.Point(87, 416);
+            this.tbxLN.Location = new System.Drawing.Point(86, 654);
             this.tbxLN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxLN.MaxLength = 32767;
             this.tbxLN.MinimumSize = new System.Drawing.Size(1, 1);
@@ -542,7 +598,7 @@ namespace GenderEqualityApp
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label4.Location = new System.Drawing.Point(80, 374);
+            this.label4.Location = new System.Drawing.Point(79, 612);
             this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(140, 38);
@@ -577,7 +633,7 @@ namespace GenderEqualityApp
             this.tbxMN.IconRight = null;
             this.tbxMN.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbxMN.Lines = new string[0];
-            this.tbxMN.Location = new System.Drawing.Point(87, 292);
+            this.tbxMN.Location = new System.Drawing.Point(86, 530);
             this.tbxMN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxMN.MaxLength = 32767;
             this.tbxMN.MinimumSize = new System.Drawing.Size(1, 1);
@@ -631,12 +687,13 @@ namespace GenderEqualityApp
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label3.Location = new System.Drawing.Point(80, 250);
+            this.label3.Location = new System.Drawing.Point(79, 488);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 38);
             this.label3.TabIndex = 9;
             this.label3.Text = "Middle Name";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // tbxFN
             // 
@@ -666,7 +723,7 @@ namespace GenderEqualityApp
             this.tbxFN.IconRight = null;
             this.tbxFN.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbxFN.Lines = new string[0];
-            this.tbxFN.Location = new System.Drawing.Point(87, 171);
+            this.tbxFN.Location = new System.Drawing.Point(86, 409);
             this.tbxFN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxFN.MaxLength = 32767;
             this.tbxFN.MinimumSize = new System.Drawing.Size(1, 1);
@@ -713,6 +770,7 @@ namespace GenderEqualityApp
             this.tbxFN.TextPlaceholder = "Enter text";
             this.tbxFN.UseSystemPasswordChar = false;
             this.tbxFN.WordWrap = true;
+            this.tbxFN.TextChanged += new System.EventHandler(this.tbxFN_TextChanged);
             // 
             // bunifuButton21
             // 
@@ -733,11 +791,11 @@ namespace GenderEqualityApp
             this.bunifuButton21.ColorContrastOnClick = 45;
             this.bunifuButton21.ColorContrastOnHover = 45;
             this.bunifuButton21.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.bunifuButton21.CustomizableEdges = borderEdges1;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.bunifuButton21.CustomizableEdges = borderEdges2;
             this.bunifuButton21.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton21.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton21.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -761,7 +819,7 @@ namespace GenderEqualityApp
             this.bunifuButton21.IdleIconLeftImage = null;
             this.bunifuButton21.IdleIconRightImage = null;
             this.bunifuButton21.IndicateFocus = false;
-            this.bunifuButton21.Location = new System.Drawing.Point(385, 622);
+            this.bunifuButton21.Location = new System.Drawing.Point(384, 860);
             this.bunifuButton21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bunifuButton21.Name = "bunifuButton21";
             this.bunifuButton21.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -811,12 +869,13 @@ namespace GenderEqualityApp
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label2.Location = new System.Drawing.Point(80, 129);
+            this.label2.Location = new System.Drawing.Point(79, 367);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(142, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "First Name";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox2
             // 
@@ -855,7 +914,7 @@ namespace GenderEqualityApp
             this.AppIcon.BorderRadius = 17;
             this.AppIcon.Image = ((System.Drawing.Image)(resources.GetObject("AppIcon.Image")));
             this.AppIcon.IsCircle = false;
-            this.AppIcon.Location = new System.Drawing.Point(16, 9);
+            this.AppIcon.Location = new System.Drawing.Point(14, 8);
             this.AppIcon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.AppIcon.Name = "AppIcon";
             this.AppIcon.Size = new System.Drawing.Size(34, 34);
@@ -890,7 +949,7 @@ namespace GenderEqualityApp
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.IsCircle = false;
-            this.btnClose.Location = new System.Drawing.Point(1009, 9);
+            this.btnClose.Location = new System.Drawing.Point(1006, 8);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(34, 34);
@@ -909,7 +968,7 @@ namespace GenderEqualityApp
             this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMin.Image = ((System.Drawing.Image)(resources.GetObject("btnMin.Image")));
             this.btnMin.IsCircle = false;
-            this.btnMin.Location = new System.Drawing.Point(971, 9);
+            this.btnMin.Location = new System.Drawing.Point(968, 8);
             this.btnMin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(34, 34);
@@ -919,59 +978,132 @@ namespace GenderEqualityApp
             this.btnMin.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
-            // tbxG
+            // label10
             // 
-            this.tbxG.BackColor = System.Drawing.Color.Transparent;
-            this.tbxG.BackgroundColor = System.Drawing.Color.White;
-            this.tbxG.BorderColor = System.Drawing.Color.Silver;
-            this.tbxG.BorderRadius = 1;
-            this.tbxG.Color = System.Drawing.Color.Silver;
-            this.tbxG.Direction = Bunifu.UI.WinForms.BunifuDropdown.Directions.Down;
-            this.tbxG.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.tbxG.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.tbxG.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.tbxG.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.tbxG.DisabledIndicatorColor = System.Drawing.Color.DarkGray;
-            this.tbxG.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.tbxG.DropdownBorderThickness = Bunifu.UI.WinForms.BunifuDropdown.BorderThickness.Thin;
-            this.tbxG.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.tbxG.DropDownTextAlign = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.tbxG.FillDropDown = true;
-            this.tbxG.FillIndicator = false;
-            this.tbxG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.tbxG.Font = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.tbxG.ForeColor = System.Drawing.Color.Black;
-            this.tbxG.FormattingEnabled = true;
-            this.tbxG.Icon = null;
-            this.tbxG.IndicatorAlignment = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.tbxG.IndicatorColor = System.Drawing.Color.DarkGray;
-            this.tbxG.IndicatorLocation = Bunifu.UI.WinForms.BunifuDropdown.Indicator.Right;
-            this.tbxG.IndicatorThickness = 2;
-            this.tbxG.IsDropdownOpened = false;
-            this.tbxG.ItemBackColor = System.Drawing.Color.White;
-            this.tbxG.ItemBorderColor = System.Drawing.Color.White;
-            this.tbxG.ItemForeColor = System.Drawing.Color.Black;
-            this.tbxG.ItemHeight = 26;
-            this.tbxG.ItemHighLightColor = System.Drawing.Color.DodgerBlue;
-            this.tbxG.ItemHighLightForeColor = System.Drawing.Color.White;
-            this.tbxG.Items.AddRange(new object[] {
-            "Male",
-            "Female",
-            "Others"});
-            this.tbxG.ItemTopMargin = 3;
-            this.tbxG.Location = new System.Drawing.Point(87, 542);
-            this.tbxG.Name = "tbxG";
-            this.tbxG.Size = new System.Drawing.Size(332, 32);
-            this.tbxG.TabIndex = 26;
-            this.tbxG.TextAlignment = Bunifu.UI.WinForms.BunifuDropdown.TextAlign.Left;
-            this.tbxG.TextLeftMargin = 5;
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.label10.Location = new System.Drawing.Point(377, 128);
+            this.label10.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(84, 38);
+            this.label10.TabIndex = 27;
+            this.label10.Text = "Photo";
+            // 
+            // regPic
+            // 
+            this.regPic.AllowFocused = false;
+            this.regPic.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.regPic.AutoSizeHeight = true;
+            this.regPic.BorderRadius = 91;
+            this.regPic.Image = ((System.Drawing.Image)(resources.GetObject("regPic.Image")));
+            this.regPic.IsCircle = true;
+            this.regPic.Location = new System.Drawing.Point(419, 169);
+            this.regPic.Name = "regPic";
+            this.regPic.Size = new System.Drawing.Size(182, 182);
+            this.regPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.regPic.TabIndex = 28;
+            this.regPic.TabStop = false;
+            this.regPic.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            // 
+            // bunifuButton22
+            // 
+            this.bunifuButton22.AllowAnimations = true;
+            this.bunifuButton22.AllowMouseEffects = true;
+            this.bunifuButton22.AllowToggling = false;
+            this.bunifuButton22.AnimationSpeed = 200;
+            this.bunifuButton22.AutoGenerateColors = false;
+            this.bunifuButton22.AutoRoundBorders = false;
+            this.bunifuButton22.AutoSizeLeftIcon = true;
+            this.bunifuButton22.AutoSizeRightIcon = true;
+            this.bunifuButton22.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuButton22.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.bunifuButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton22.BackgroundImage")));
+            this.bunifuButton22.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.bunifuButton22.ButtonText = "Browse";
+            this.bunifuButton22.ButtonTextMarginLeft = 0;
+            this.bunifuButton22.ColorContrastOnClick = 45;
+            this.bunifuButton22.ColorContrastOnHover = 45;
+            this.bunifuButton22.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bunifuButton22.CustomizableEdges = borderEdges1;
+            this.bunifuButton22.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.bunifuButton22.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.bunifuButton22.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bunifuButton22.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.bunifuButton22.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
+            this.bunifuButton22.Font = new System.Drawing.Font("Archivo SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton22.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton22.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuButton22.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuButton22.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.bunifuButton22.IconMarginLeft = 11;
+            this.bunifuButton22.IconPadding = 10;
+            this.bunifuButton22.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.bunifuButton22.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuButton22.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.bunifuButton22.IconSize = 25;
+            this.bunifuButton22.IdleBorderColor = System.Drawing.Color.Transparent;
+            this.bunifuButton22.IdleBorderRadius = 30;
+            this.bunifuButton22.IdleBorderThickness = 1;
+            this.bunifuButton22.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.bunifuButton22.IdleIconLeftImage = null;
+            this.bunifuButton22.IdleIconRightImage = null;
+            this.bunifuButton22.IndicateFocus = false;
+            this.bunifuButton22.Location = new System.Drawing.Point(620, 292);
+            this.bunifuButton22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bunifuButton22.Name = "bunifuButton22";
+            this.bunifuButton22.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.bunifuButton22.OnDisabledState.BorderRadius = 30;
+            this.bunifuButton22.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.bunifuButton22.OnDisabledState.BorderThickness = 1;
+            this.bunifuButton22.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bunifuButton22.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.bunifuButton22.OnDisabledState.IconLeftImage = null;
+            this.bunifuButton22.OnDisabledState.IconRightImage = null;
+            this.bunifuButton22.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.bunifuButton22.onHoverState.BorderRadius = 30;
+            this.bunifuButton22.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.bunifuButton22.onHoverState.BorderThickness = 1;
+            this.bunifuButton22.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.bunifuButton22.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton22.onHoverState.IconLeftImage = null;
+            this.bunifuButton22.onHoverState.IconRightImage = null;
+            this.bunifuButton22.OnIdleState.BorderColor = System.Drawing.Color.Transparent;
+            this.bunifuButton22.OnIdleState.BorderRadius = 30;
+            this.bunifuButton22.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.bunifuButton22.OnIdleState.BorderThickness = 1;
+            this.bunifuButton22.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(85)))), ((int)(((byte)(97)))));
+            this.bunifuButton22.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton22.OnIdleState.IconLeftImage = null;
+            this.bunifuButton22.OnIdleState.IconRightImage = null;
+            this.bunifuButton22.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.bunifuButton22.OnPressedState.BorderRadius = 30;
+            this.bunifuButton22.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.bunifuButton22.OnPressedState.BorderThickness = 1;
+            this.bunifuButton22.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.bunifuButton22.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton22.OnPressedState.IconLeftImage = null;
+            this.bunifuButton22.OnPressedState.IconRightImage = null;
+            this.bunifuButton22.Size = new System.Drawing.Size(176, 48);
+            this.bunifuButton22.TabIndex = 29;
+            this.bunifuButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuButton22.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.bunifuButton22.TextMarginLeft = 0;
+            this.bunifuButton22.TextPadding = new System.Windows.Forms.Padding(0);
+            this.bunifuButton22.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton22.Click += new System.EventHandler(this.bunifuButton22_Click_1);
             // 
             // RegForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(52)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(1054, 816);
+            this.ClientSize = new System.Drawing.Size(1054, 1036);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.AppIcon);
@@ -990,6 +1122,7 @@ namespace GenderEqualityApp
             ((System.ComponentModel.ISupportInitialize)(this.AppIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.regPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1023,5 +1156,8 @@ namespace GenderEqualityApp
         private Bunifu.UI.WinForms.BunifuPictureBox btnClose;
         private Bunifu.UI.WinForms.BunifuPictureBox btnMin;
         private Bunifu.UI.WinForms.BunifuDropdown tbxG;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 bunifuButton22;
+        private Bunifu.UI.WinForms.BunifuPictureBox regPic;
+        private System.Windows.Forms.Label label10;
     }
 }
