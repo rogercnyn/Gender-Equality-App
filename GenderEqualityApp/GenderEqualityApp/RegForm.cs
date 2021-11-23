@@ -17,6 +17,7 @@ namespace GenderEqualityApp
         SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
         public string imgLoc;
+        public static string reg_username;
         public RegForm()
         {
             InitializeComponent();
@@ -32,8 +33,10 @@ namespace GenderEqualityApp
                 FileStream fs = new FileStream(imgLoc, FileMode.Open, FileAccess.Read);
                 BinaryReader br = new BinaryReader(fs);
                 img = br.ReadBytes((int)fs.Length);
-                cmd = new SqlCommand("INSERT INTO usersdata VALUES ('" + tbxUN.Text + "','" + tbxPW.Text + "','" + tbxFN.Text + "','" + tbxMN.Text + "','" + tbxLN.Text + "','" + tbxG.SelectedItem.ToString() + "','" + tbxEA.Text + "','" + tbxBday.Text + "','" + img + "')", conn);
+                var verifyCode = new Random().Next(1000, 9999);
+                cmd = new SqlCommand("INSERT INTO usersdata VALUES ('" + tbxUN.Text + "','" + tbxPW.Text + "','" + tbxFN.Text + "','" + tbxMN.Text + "','" + tbxLN.Text + "','" + tbxG.SelectedItem.ToString() + "','" + tbxEA.Text + "','" + tbxBday.Text + "','" + img + "','" + verifyCode + "')", conn);
                 cmd.ExecuteNonQuery();
+                reg_username = tbxUN.Text;
                 MessageBox.Show("Registered Successfully!");
                 tbxUN.Text = string.Empty;
                 tbxPW.Text = string.Empty;
@@ -46,8 +49,8 @@ namespace GenderEqualityApp
                 regPic.ImageLocation = null;
                 conn.Close();
                 this.Hide();
-                LogIn loginform = new LogIn();
-                loginform.Show();
+                Verification verify = new Verification();
+                verify.Show();
             }
 
 
