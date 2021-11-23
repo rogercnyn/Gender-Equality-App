@@ -21,6 +21,7 @@ namespace GenderEqualityApp
         {
             InitializeComponent();
             AddUser(m_report);
+            bunifuLabel2.Text = LogIn.username;
         }
         void AddUser(List<reportOfUser> list)
         {

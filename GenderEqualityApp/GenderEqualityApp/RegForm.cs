@@ -17,7 +17,6 @@ namespace GenderEqualityApp
         SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
         public string imgLoc;
-        public string username;
         public RegForm()
         {
             InitializeComponent();
