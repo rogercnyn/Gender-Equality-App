@@ -16,6 +16,7 @@ namespace GenderEqualityApp
     {
         SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
+        public static string username;
         public LogIn()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace GenderEqualityApp
             cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN and userPassword = @paramPW", conn);
             cmd.Parameters.AddWithValue("@paramUN", loginTBXUN.Text);
             cmd.Parameters.AddWithValue("@paramPW", loginTBXPW.Text);
+            username = loginTBXUN.Text;
             SqlDataReader dr = cmd.ExecuteReader();
             if (dr.Read())
             {
