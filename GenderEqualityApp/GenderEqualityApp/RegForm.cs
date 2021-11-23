@@ -37,6 +37,8 @@ namespace GenderEqualityApp
                 cmd = new SqlCommand("INSERT INTO usersdata VALUES ('" + tbxUN.Text + "','" + tbxPW.Text + "','" + tbxFN.Text + "','" + tbxMN.Text + "','" + tbxLN.Text + "','" + tbxG.SelectedItem.ToString() + "','" + tbxEA.Text + "','" + tbxBday.Text + "','" + img + "','" + verifyCode + "')", conn);
                 cmd.ExecuteNonQuery();
                 reg_username = tbxUN.Text;
+                var mailhelp = new EmailRegister();
+                mailhelp.Send(verifyCode + string.Empty, tbxEA.Text);
                 MessageBox.Show("Registered Successfully!");
                 tbxUN.Text = string.Empty;
                 tbxPW.Text = string.Empty;
@@ -47,12 +49,12 @@ namespace GenderEqualityApp
                 tbxEA.Text = string.Empty;
                 tbxBday.Text = string.Empty;
                 regPic.ImageLocation = null;
+                
                 conn.Close();
                 this.Hide();
                 Verification verify = new Verification();
                 verify.Show();
             }
-
 
             if (!allFill)
             {
