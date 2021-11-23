@@ -319,3 +319,4 @@ D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Progr
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Verification.resources
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\obj\Debug\GenderEqualityApp.Verification.resources
