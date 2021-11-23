@@ -16,7 +16,8 @@ namespace GenderEqualityApp
     public partial class Dashboard : Form
     {
         List<reportOfUser> m_report = new List<reportOfUser>();
-
+        SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
+        SqlCommand cmd;
         public Dashboard()
         {
             InitializeComponent();
@@ -76,6 +77,21 @@ namespace GenderEqualityApp
         private void bunifuLabel2_Click(object sender, EventArgs e)
         {
             bunifuPages1.SetPage("Profile");
+            bunifuLabel76.Text = LogIn.username;
+            conn.Open();
+            SqlDataReader myReader = null;
+            cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN", conn);
+            cmd.Parameters.AddWithValue("@paramUN", bunifuLabel76.Text);
+            myReader = cmd.ExecuteReader();
+            while (myReader.Read())
+            {
+                bunifuLabel29.Text = myReader["firstName"].ToString();
+                bunifuLabel30.Text = myReader["middleName"].ToString();
+                bunifuLabel31.Text = myReader["lastName"].ToString();
+                bunifuLabel33.Text = myReader["gender"].ToString();
+                bunifuLabel34.Text = myReader["birthday"].ToString();
+                bunifuLabel35.Text = myReader["emailAddress"].ToString();
+            }
         }
 
         private void btnMin_Click(object sender, EventArgs e)
