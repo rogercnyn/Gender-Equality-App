@@ -14,10 +14,10 @@ namespace GenderEqualityApp
 {
     public partial class RegForm : Form
     {
-        SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
+        /*SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
         public string imgLoc;
-        public static string reg_username;
+        public static string reg_username;*/
         public RegForm()
         {
             InitializeComponent();
@@ -25,7 +25,7 @@ namespace GenderEqualityApp
 
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
-            bool allFill = tbxUN.Text != string.Empty && tbxPW.Text != string.Empty && tbxFN.Text != string.Empty && tbxMN.Text != string.Empty && tbxLN.Text != string.Empty && tbxG.Text != string.Empty && tbxEA.Text != string.Empty && tbxBday.Text != string.Empty;
+            /*bool allFill = tbxUN.Text != string.Empty && tbxPW.Text != string.Empty && tbxFN.Text != string.Empty && tbxMN.Text != string.Empty && tbxLN.Text != string.Empty && tbxG.Text != string.Empty && tbxEA.Text != string.Empty && tbxBday.Text != string.Empty;
             if (allFill)
             {
                 conn.Open();
@@ -34,11 +34,12 @@ namespace GenderEqualityApp
                 BinaryReader br = new BinaryReader(fs);
                 img = br.ReadBytes((int)fs.Length);
                 var verifyCode = new Random().Next(1000, 9999);
+                string emailVerify = "Hello, " + tbxFN.Text + ".\r\nPlease use this verification code to continue your account registration: " + verifyCode + ".\r\n\r\nFor your account's security, do not share this code with anyone.\r\n\r\nThank you.";
                 cmd = new SqlCommand("INSERT INTO usersdata VALUES ('" + tbxUN.Text + "','" + tbxPW.Text + "','" + tbxFN.Text + "','" + tbxMN.Text + "','" + tbxLN.Text + "','" + tbxG.SelectedItem.ToString() + "','" + tbxEA.Text + "','" + tbxBday.Text + "','" + img + "','" + verifyCode + "')", conn);
                 cmd.ExecuteNonQuery();
                 reg_username = tbxUN.Text;
                 var mailhelp = new EmailRegister();
-                mailhelp.Send(verifyCode + string.Empty, tbxEA.Text);
+                mailhelp.Send(emailVerify, tbxEA.Text);
                 MessageBox.Show("Registered Successfully!");
                 tbxUN.Text = string.Empty;
                 tbxPW.Text = string.Empty;
@@ -50,28 +51,28 @@ namespace GenderEqualityApp
                 tbxBday.Text = string.Empty;
                 regPic.ImageLocation = null;
                 
-                conn.Close();
+                conn.Close();*/
                 this.Hide();
                 Verification verify = new Verification();
                 verify.Show();
-            }
+            /*}
 
             if (!allFill)
             {
                 MessageBox.Show("Fill up all of the text box.");
-            }
+            }*/
 
         }
 
         private void bunifuButton22_Click_1(object sender, EventArgs e)
         {
-            OpenFileDialog dlg = new OpenFileDialog();
+            /*OpenFileDialog dlg = new OpenFileDialog();
             dlg.Title = "Choose a file";
             if (dlg.ShowDialog() == DialogResult.OK)
             {
                 imgLoc = dlg.FileName.ToString();
                 regPic.ImageLocation = imgLoc;
-            }
+            }*/
         }
 
         private void btnMin_Click(object sender, EventArgs e)
