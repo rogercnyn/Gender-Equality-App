@@ -20,11 +20,35 @@ namespace GenderEqualityApp
         SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
         SqlCommand newcmd;
+        SqlCommand dashcmd;
         public Dashboard()
         {
             InitializeComponent();
             AddUser(m_report);
             bunifuLabel2.Text = LogIn.username;
+            conn.Open();
+            string dashcm = "SELECT profilepic FROM usersdata WHERE userName='" + LogIn.username + "'";
+            if (conn.State == ConnectionState.Open)
+            {
+                dashcmd = new SqlCommand(dashcm, conn);
+                SqlDataReader dashread = dashcmd.ExecuteReader();
+                dashread.Read();
+                if (dashread.HasRows)
+                {
+                    byte[] dashimg = (byte[])(dashread["profilepic"]);
+                    if (dashimg == null)
+                    {
+                        bunifuPictureBox2.Image = null;
+                    }
+                    else
+                    {
+                        MemoryStream m = new MemoryStream(dashimg);
+                        bunifuPictureBox2.Image = Image.FromStream(m);
+                    }
+                }
+                dashread.Close();
+            }
+            
         }
         void AddUser(List<reportOfUser> list)
         {
@@ -82,7 +106,6 @@ namespace GenderEqualityApp
         {
             bunifuPages1.SetPage("Profile");
             bunifuLabel76.Text = LogIn.username;
-            conn.Open();
             SqlDataReader myReader = null;
             cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN", conn);
             cmd.Parameters.AddWithValue("@paramUN", bunifuLabel76.Text);
