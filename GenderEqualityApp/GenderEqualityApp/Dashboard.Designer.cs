@@ -2202,7 +2202,7 @@ namespace GenderEqualityApp
             this.bunifuLabel76.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel76.Font = new System.Drawing.Font("Heebo", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel76.Location = new System.Drawing.Point(492, 369);
+            this.bunifuLabel76.Location = new System.Drawing.Point(480, 341);
             this.bunifuLabel76.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel76.Name = "bunifuLabel76";
             this.bunifuLabel76.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -3161,7 +3161,7 @@ namespace GenderEqualityApp
             this.bunifuPictureBox1.BorderRadius = 85;
             this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
             this.bunifuPictureBox1.IsCircle = true;
-            this.bunifuPictureBox1.Location = new System.Drawing.Point(480, 120);
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(480, 150);
             this.bunifuPictureBox1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuPictureBox1.Name = "bunifuPictureBox1";
             this.bunifuPictureBox1.Size = new System.Drawing.Size(171, 171);
@@ -4021,7 +4021,7 @@ namespace GenderEqualityApp
             this.AppLogo.BorderRadius = 82;
             this.AppLogo.Image = ((System.Drawing.Image)(resources.GetObject("AppLogo.Image")));
             this.AppLogo.IsCircle = false;
-            this.AppLogo.Location = new System.Drawing.Point(19, -34);
+            this.AppLogo.Location = new System.Drawing.Point(12, 5);
             this.AppLogo.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.AppLogo.Name = "AppLogo";
             this.AppLogo.Size = new System.Drawing.Size(165, 165);
