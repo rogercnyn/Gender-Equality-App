@@ -78,8 +78,7 @@ namespace GenderEqualityApp
         private void bunifuButton22_Click(object sender, EventArgs e)
         {
             bunifuPages1.SetPage("Heat Map");
-            HeatMap Form = new HeatMap();
-            Form.Show();
+            
         }
 
         private void bunifuButton23_Click(object sender, EventArgs e)
@@ -196,6 +195,17 @@ namespace GenderEqualityApp
             m_report.Add(n1);
 
             AddUser(m_report);
+        }
+
+        private void bunifuLabel54_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuButton26_Click(object sender, EventArgs e)
+        {
+            HeatMap Form = new HeatMap();
+            Form.Show();
         }
     }
 }
