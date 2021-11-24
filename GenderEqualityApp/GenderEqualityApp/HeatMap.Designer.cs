@@ -62,7 +62,7 @@ namespace GenderEqualityApp
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.IsCircle = false;
-            this.btnClose.Location = new System.Drawing.Point(887, 12);
+            this.btnClose.Location = new System.Drawing.Point(897, 7);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(29, 29);
@@ -81,7 +81,7 @@ namespace GenderEqualityApp
             this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMin.Image = ((System.Drawing.Image)(resources.GetObject("btnMin.Image")));
             this.btnMin.IsCircle = false;
-            this.btnMin.Location = new System.Drawing.Point(852, 12);
+            this.btnMin.Location = new System.Drawing.Point(863, 7);
             this.btnMin.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(29, 29);
@@ -99,7 +99,7 @@ namespace GenderEqualityApp
             this.AppIcon.BorderRadius = 14;
             this.AppIcon.Image = ((System.Drawing.Image)(resources.GetObject("AppIcon.Image")));
             this.AppIcon.IsCircle = false;
-            this.AppIcon.Location = new System.Drawing.Point(9, 12);
+            this.AppIcon.Location = new System.Drawing.Point(14, 7);
             this.AppIcon.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.AppIcon.Name = "AppIcon";
             this.AppIcon.Size = new System.Drawing.Size(29, 29);
@@ -115,7 +115,7 @@ namespace GenderEqualityApp
             this.AppName.CursorType = null;
             this.AppName.Font = new System.Drawing.Font("Gothic A1 Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(211)))));
-            this.AppName.Location = new System.Drawing.Point(44, 12);
+            this.AppName.Location = new System.Drawing.Point(49, 11);
             this.AppName.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -184,7 +184,7 @@ namespace GenderEqualityApp
             this.bunifuPanel1.Controls.Add(this.btnMin);
             this.bunifuPanel1.Controls.Add(this.AppName);
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 1);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(937, 145);
