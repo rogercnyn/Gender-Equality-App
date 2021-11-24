@@ -399,3 +399,13 @@ C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.WinForms.xml
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Philippines.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.dll
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.WinForms.dll
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.dll
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.pdb
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.WinForms.pdb
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.WinForms.xml
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.pdb
+D:\Personal\School Files\iACADEMY\Subjects\Grade 12\1st Semester\Core Java Programming\Core Java\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.xml
