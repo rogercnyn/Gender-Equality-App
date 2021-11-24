@@ -389,3 +389,13 @@ C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqual
 C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.pdb
 C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.xml
 C:\Users\acer\Documents\GitHub\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Philippines.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\Philippines.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.dll
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.pdb
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\rcana\Documents\Gender-Equality-App\GenderEqualityApp\GenderEqualityApp\bin\Debug\LiveCharts.Wpf.xml
