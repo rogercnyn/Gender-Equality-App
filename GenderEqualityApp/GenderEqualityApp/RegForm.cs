@@ -14,10 +14,10 @@ namespace GenderEqualityApp
 {
     public partial class RegForm : Form
     {
-        SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
+        /*SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
         string imgLoc;
-        public static string reg_username;
+        public static string reg_username;*/
         public RegForm()
         {
             InitializeComponent();
@@ -25,18 +25,18 @@ namespace GenderEqualityApp
 
         private void bunifuButton22_Click_1(object sender, EventArgs e)
         {
-            OpenFileDialog dlg = new OpenFileDialog();
+            /*OpenFileDialog dlg = new OpenFileDialog();
             dlg.Title = "Choose a file";
             if (dlg.ShowDialog() == DialogResult.OK)
             {
                 imgLoc = dlg.FileName.ToString();
                 regPic.ImageLocation = imgLoc;
-            }
+            }*/
         }
 
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
-            bool allFill = tbxUN.Text != string.Empty && tbxPW.Text != string.Empty && tbxFN.Text != string.Empty && tbxMN.Text != string.Empty && tbxLN.Text != string.Empty && tbxG.Text != string.Empty && tbxEA.Text != string.Empty && tbxBday.Text != string.Empty && imgLoc != string.Empty;
+            /*bool allFill = tbxUN.Text != string.Empty && tbxPW.Text != string.Empty && tbxFN.Text != string.Empty && tbxMN.Text != string.Empty && tbxLN.Text != string.Empty && tbxG.Text != string.Empty && tbxEA.Text != string.Empty && tbxBday.Text != string.Empty && imgLoc != string.Empty;
             if (allFill)
             {
                 conn.Open();
@@ -63,16 +63,16 @@ namespace GenderEqualityApp
                 tbxBday.Text = string.Empty;
                 regPic.ImageLocation = null;
                 
-                conn.Close();
+                conn.Close();*/
                 this.Hide();
                 Verification verify = new Verification();
                 verify.Show();
-           }
+           /*}
 
             if (!allFill)
             {
                 MessageBox.Show("Fill up all of the text box.");
-            }
+            }*/
 
         }
 
