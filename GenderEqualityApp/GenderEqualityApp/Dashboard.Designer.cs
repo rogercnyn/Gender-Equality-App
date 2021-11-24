@@ -5156,8 +5156,8 @@ namespace GenderEqualityApp
             this.bunifuProgressBar2.ProgressColorRight = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(150)))), ((int)(((byte)(76)))));
             this.bunifuProgressBar2.Size = new System.Drawing.Size(319, 13);
             this.bunifuProgressBar2.TabIndex = 64;
-            this.bunifuProgressBar2.Value = 75;
-            this.bunifuProgressBar2.ValueByTransition = 75;
+            this.bunifuProgressBar2.Value = 57;
+            this.bunifuProgressBar2.ValueByTransition = 57;
             // 
             // Dashboard
             // 
