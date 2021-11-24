@@ -10,19 +10,20 @@ using System.Windows.Forms;
 using Database;
 using userReport;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace GenderEqualityApp
 {
     public partial class Dashboard : Form
     {
         List<reportOfUser> m_report = new List<reportOfUser>();
-        /*SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
-        SqlCommand cmd;*/
+        SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
+        SqlCommand cmd;
         public Dashboard()
         {
             InitializeComponent();
             AddUser(m_report);
-            //bunifuLabel2.Text = LogIn.username;
+            bunifuLabel2.Text = LogIn.username;
         }
         void AddUser(List<reportOfUser> list)
         {
@@ -79,7 +80,7 @@ namespace GenderEqualityApp
         private void bunifuLabel2_Click(object sender, EventArgs e)
         {
             bunifuPages1.SetPage("Profile");
-            /*bunifuLabel76.Text = LogIn.username;
+            bunifuLabel76.Text = LogIn.username;
             conn.Open();
             SqlDataReader myReader = null;
             cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN", conn);
@@ -93,8 +94,34 @@ namespace GenderEqualityApp
                 bunifuLabel33.Text = myReader["gender"].ToString();
                 bunifuLabel34.Text = myReader["birthday"].ToString();
                 bunifuLabel35.Text = myReader["emailAddress"].ToString();
-                bunifuPictureBox1.ImageLocation = myReader["profilepic"].ToString();
-            }*/
+            }
+
+            string anothercmd = "SELECT profilepic FROM usersdata WHERE userName'" + bunifuLabel2.Text + "'";
+            if (conn.State == ConnectionState.Open)
+            {
+                SqlCommand newcmd = new SqlCommand(anothercmd, conn);
+                SqlDataReader reader = newcmd.ExecuteReader();
+                reader.Read();
+                if (reader.HasRows)
+                {
+                    byte[] image = (byte[])(reader[1]);
+                    if (image == null)
+                    {
+                        bunifuPictureBox1.Image = null;
+                    }
+                    else
+                    {
+                        MemoryStream ms = new MemoryStream(image);
+                        bunifuPictureBox1.Image = Image.FromStream(ms);
+                    }
+                }
+            }
+            
+            else
+            {
+                conn.Close();
+                MessageBox.Show("Error");
+            }
         }
 
         private void btnMin_Click(object sender, EventArgs e)

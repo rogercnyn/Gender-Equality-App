@@ -58,14 +58,14 @@ namespace GenderEqualityApp
             this.btnClose.AllowFocused = false;
             this.btnClose.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnClose.AutoSizeHeight = true;
-            this.btnClose.BorderRadius = 14;
+            this.btnClose.BorderRadius = 16;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.IsCircle = false;
-            this.btnClose.Location = new System.Drawing.Point(887, 12);
+            this.btnClose.Location = new System.Drawing.Point(998, 15);
             this.btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(29, 29);
+            this.btnClose.Size = new System.Drawing.Size(33, 33);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnClose.TabIndex = 48;
             this.btnClose.TabStop = false;
@@ -77,14 +77,14 @@ namespace GenderEqualityApp
             this.btnMin.AllowFocused = false;
             this.btnMin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnMin.AutoSizeHeight = true;
-            this.btnMin.BorderRadius = 14;
+            this.btnMin.BorderRadius = 16;
             this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMin.Image = ((System.Drawing.Image)(resources.GetObject("btnMin.Image")));
             this.btnMin.IsCircle = false;
-            this.btnMin.Location = new System.Drawing.Point(852, 12);
+            this.btnMin.Location = new System.Drawing.Point(958, 15);
             this.btnMin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(29, 29);
+            this.btnMin.Size = new System.Drawing.Size(33, 33);
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMin.TabIndex = 47;
             this.btnMin.TabStop = false;
@@ -96,13 +96,13 @@ namespace GenderEqualityApp
             this.AppIcon.AllowFocused = false;
             this.AppIcon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AppIcon.AutoSizeHeight = true;
-            this.AppIcon.BorderRadius = 14;
+            this.AppIcon.BorderRadius = 16;
             this.AppIcon.Image = ((System.Drawing.Image)(resources.GetObject("AppIcon.Image")));
             this.AppIcon.IsCircle = false;
-            this.AppIcon.Location = new System.Drawing.Point(9, 12);
+            this.AppIcon.Location = new System.Drawing.Point(10, 15);
             this.AppIcon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AppIcon.Name = "AppIcon";
-            this.AppIcon.Size = new System.Drawing.Size(29, 29);
+            this.AppIcon.Size = new System.Drawing.Size(33, 33);
             this.AppIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AppIcon.TabIndex = 46;
             this.AppIcon.TabStop = false;
@@ -115,11 +115,11 @@ namespace GenderEqualityApp
             this.AppName.CursorType = null;
             this.AppName.Font = new System.Drawing.Font("Gothic A1 Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(211)))));
-            this.AppName.Location = new System.Drawing.Point(44, 12);
+            this.AppName.Location = new System.Drawing.Point(50, 15);
             this.AppName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.AppName.Size = new System.Drawing.Size(66, 21);
+            this.AppName.Size = new System.Drawing.Size(81, 25);
             this.AppName.TabIndex = 45;
             this.AppName.Text = "App Name";
             this.AppName.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -135,11 +135,11 @@ namespace GenderEqualityApp
             this.bunifuPanel5.BorderThickness = 1;
             this.bunifuPanel5.Controls.Add(this.pictureBox6);
             this.bunifuPanel5.Controls.Add(this.label2);
-            this.bunifuPanel5.Location = new System.Drawing.Point(9, 44);
+            this.bunifuPanel5.Location = new System.Drawing.Point(10, 55);
             this.bunifuPanel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuPanel5.Name = "bunifuPanel5";
             this.bunifuPanel5.ShowBorders = true;
-            this.bunifuPanel5.Size = new System.Drawing.Size(916, 87);
+            this.bunifuPanel5.Size = new System.Drawing.Size(1030, 109);
             this.bunifuPanel5.TabIndex = 44;
             this.bunifuPanel5.Click += new System.EventHandler(this.bunifuPanel5_Click);
             // 
@@ -147,10 +147,10 @@ namespace GenderEqualityApp
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(508, -90);
+            this.pictureBox6.Location = new System.Drawing.Point(572, -112);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(441, 273);
+            this.pictureBox6.Size = new System.Drawing.Size(496, 341);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
@@ -163,10 +163,10 @@ namespace GenderEqualityApp
             this.label2.Font = new System.Drawing.Font("Archivo ExtraBold", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
             this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(20, 20, 5, 6);
-            this.label2.Size = new System.Drawing.Size(205, 76);
+            this.label2.Padding = new System.Windows.Forms.Padding(22, 25, 6, 8);
+            this.label2.Size = new System.Drawing.Size(244, 93);
             this.label2.TabIndex = 10;
             this.label2.Text = "Heat Map";
             // 
@@ -184,19 +184,19 @@ namespace GenderEqualityApp
             this.bunifuPanel1.Controls.Add(this.btnMin);
             this.bunifuPanel1.Controls.Add(this.AppName);
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 1);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(937, 145);
+            this.bunifuPanel1.Size = new System.Drawing.Size(1054, 181);
             this.bunifuPanel1.TabIndex = 49;
             this.bunifuPanel1.Click += new System.EventHandler(this.bunifuPanel1_Click);
             // 
             // HeatMap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.ClientSize = new System.Drawing.Size(937, 663);
+            this.ClientSize = new System.Drawing.Size(1054, 829);
             this.Controls.Add(this.bunifuPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
