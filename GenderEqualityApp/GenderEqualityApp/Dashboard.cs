@@ -19,6 +19,7 @@ namespace GenderEqualityApp
         List<reportOfUser> m_report = new List<reportOfUser>();
         SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
+        SqlCommand newcmd;
         public Dashboard()
         {
             InitializeComponent();
@@ -96,15 +97,17 @@ namespace GenderEqualityApp
                 bunifuLabel35.Text = myReader["emailAddress"].ToString();
             }
 
-            string anothercmd = "SELECT profilepic FROM usersdata WHERE userName'" + bunifuLabel2.Text + "'";
+            myReader.Close();
+
+            string anothercmd = "SELECT profilepic FROM usersdata WHERE userName='" + bunifuLabel2.Text + "'";
             if (conn.State == ConnectionState.Open)
             {
-                SqlCommand newcmd = new SqlCommand(anothercmd, conn);
+                newcmd = new SqlCommand(anothercmd, conn);
                 SqlDataReader reader = newcmd.ExecuteReader();
                 reader.Read();
                 if (reader.HasRows)
                 {
-                    byte[] image = (byte[])(reader[1]);
+                    byte[] image = (byte[])(reader["profilepic"]);
                     if (image == null)
                     {
                         bunifuPictureBox1.Image = null;
