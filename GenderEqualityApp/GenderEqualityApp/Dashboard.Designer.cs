@@ -422,10 +422,10 @@ namespace GenderEqualityApp
             this.bunifuPages1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.tabPage5;
-            this.bunifuPages1.PageIndex = 4;
-            this.bunifuPages1.PageName = "tabPage5";
-            this.bunifuPages1.PageTitle = "Profile";
+            this.bunifuPages1.Page = this.About;
+            this.bunifuPages1.PageIndex = 5;
+            this.bunifuPages1.PageName = "About";
+            this.bunifuPages1.PageTitle = "About";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.Size = new System.Drawing.Size(991, 744);
             this.bunifuPages1.TabIndex = 0;
@@ -868,7 +868,7 @@ namespace GenderEqualityApp
             this.bunifuLabel2.CursorType = System.Windows.Forms.Cursors.Hand;
             this.bunifuLabel2.Font = new System.Drawing.Font("Archivo ExtraBold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel2.ForeColor = System.Drawing.Color.White;
-            this.bunifuLabel2.Location = new System.Drawing.Point(839, 32);
+            this.bunifuLabel2.Location = new System.Drawing.Point(835, 32);
             this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -3289,9 +3289,9 @@ namespace GenderEqualityApp
             this.bunifuLabel71.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel71.Name = "bunifuLabel71";
             this.bunifuLabel71.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel71.Size = new System.Drawing.Size(242, 31);
+            this.bunifuLabel71.Size = new System.Drawing.Size(292, 31);
             this.bunifuLabel71.TabIndex = 2;
-            this.bunifuLabel71.Text = "group5alpha@gmail.com";
+            this.bunifuLabel71.Text = "alphagrp5.official@gmail.com";
             this.bunifuLabel71.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel71.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -3956,9 +3956,9 @@ namespace GenderEqualityApp
             this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(257, 39);
+            this.bunifuLabel1.Size = new System.Drawing.Size(224, 39);
             this.bunifuLabel1.TabIndex = 0;
-            this.bunifuLabel1.Text = "What is (App Name)?";
+            this.bunifuLabel1.Text = "What is iRespond?";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
