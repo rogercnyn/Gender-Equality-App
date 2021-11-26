@@ -23,6 +23,16 @@ namespace GenderEqualityApp
             InitializeComponent();
         }
 
+        private void bunifuPanel1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void RegForm_Load(object sender, EventArgs e)
+        {
+            bunifuPictureBox1.Image = imageList1.Images[2];
+        }
+
         private void bunifuButton22_Click_1(object sender, EventArgs e)
         {
             /*OpenFileDialog dlg = new OpenFileDialog();
@@ -109,6 +119,19 @@ namespace GenderEqualityApp
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void tbxCPW_TextChange(object sender, EventArgs e)
+        {
+            if (tbxPW.Text != tbxCPW.Text)
+            {
+                bunifuPictureBox1.Image = imageList1.Images[1];
+            }
+
+            if (tbxPW.Text == tbxCPW.Text)
+            {
+                bunifuPictureBox1.Image = imageList1.Images[0];
+            }
         }
     }
 }
