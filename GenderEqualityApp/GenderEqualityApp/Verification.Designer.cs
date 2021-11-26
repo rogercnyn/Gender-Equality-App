@@ -62,9 +62,9 @@ namespace GenderEqualityApp
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Gothic A1", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(20, 136);
+            this.label1.Location = new System.Drawing.Point(18, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(921, 174);
+            this.label1.Size = new System.Drawing.Size(767, 144);
             this.label1.TabIndex = 31;
             this.label1.Text = resources.GetString("label1.Text");
             // 
@@ -76,11 +76,11 @@ namespace GenderEqualityApp
             this.bunifuLabel49.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel49.Font = new System.Drawing.Font("Archivo", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.bunifuLabel49.Location = new System.Drawing.Point(25, 64);
+            this.bunifuLabel49.Location = new System.Drawing.Point(22, 51);
             this.bunifuLabel49.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bunifuLabel49.Name = "bunifuLabel49";
             this.bunifuLabel49.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel49.Size = new System.Drawing.Size(353, 48);
+            this.bunifuLabel49.Size = new System.Drawing.Size(296, 41);
             this.bunifuLabel49.TabIndex = 29;
             this.bunifuLabel49.Text = "Enter Verification Code";
             this.bunifuLabel49.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -97,12 +97,11 @@ namespace GenderEqualityApp
             this.bunifuPanel1.Controls.Add(this.verifySUBMIT);
             this.bunifuPanel1.Controls.Add(this.verifyCODE);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuPanel1.Location = new System.Drawing.Point(11, 50);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bunifuPanel1.Location = new System.Drawing.Point(10, 40);
             this.bunifuPanel1.Name = "bunifuPanel1";
-            this.bunifuPanel1.Padding = new System.Windows.Forms.Padding(11, 25, 11, 12);
+            this.bunifuPanel1.Padding = new System.Windows.Forms.Padding(10, 20, 10, 10);
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(878, 500);
+            this.bunifuPanel1.Size = new System.Drawing.Size(780, 400);
             this.bunifuPanel1.TabIndex = 32;
             // 
             // verifySUBMIT
@@ -152,8 +151,7 @@ namespace GenderEqualityApp
             this.verifySUBMIT.IdleIconLeftImage = null;
             this.verifySUBMIT.IdleIconRightImage = null;
             this.verifySUBMIT.IndicateFocus = false;
-            this.verifySUBMIT.Location = new System.Drawing.Point(360, 396);
-            this.verifySUBMIT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.verifySUBMIT.Location = new System.Drawing.Point(320, 317);
             this.verifySUBMIT.Name = "verifySUBMIT";
             this.verifySUBMIT.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.verifySUBMIT.OnDisabledState.BorderRadius = 30;
@@ -187,7 +185,7 @@ namespace GenderEqualityApp
             this.verifySUBMIT.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.verifySUBMIT.OnPressedState.IconLeftImage = null;
             this.verifySUBMIT.OnPressedState.IconRightImage = null;
-            this.verifySUBMIT.Size = new System.Drawing.Size(155, 54);
+            this.verifySUBMIT.Size = new System.Drawing.Size(138, 43);
             this.verifySUBMIT.TabIndex = 13;
             this.verifySUBMIT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.verifySUBMIT.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -224,8 +222,7 @@ namespace GenderEqualityApp
             this.verifyCODE.IconRight = null;
             this.verifyCODE.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.verifyCODE.Lines = new string[0];
-            this.verifyCODE.Location = new System.Drawing.Point(235, 311);
-            this.verifyCODE.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.verifyCODE.Location = new System.Drawing.Point(209, 249);
             this.verifyCODE.MaxLength = 32767;
             this.verifyCODE.MinimumSize = new System.Drawing.Size(1, 1);
             this.verifyCODE.Modified = false;
@@ -251,7 +248,7 @@ namespace GenderEqualityApp
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.verifyCODE.OnIdleState = stateProperties4;
-            this.verifyCODE.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.verifyCODE.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.verifyCODE.PasswordChar = '\0';
             this.verifyCODE.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.verifyCODE.PlaceholderText = "Enter code";
@@ -261,7 +258,7 @@ namespace GenderEqualityApp
             this.verifyCODE.SelectionLength = 0;
             this.verifyCODE.SelectionStart = 0;
             this.verifyCODE.ShortcutsEnabled = true;
-            this.verifyCODE.Size = new System.Drawing.Size(406, 54);
+            this.verifyCODE.Size = new System.Drawing.Size(361, 43);
             this.verifyCODE.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.verifyCODE.TabIndex = 9;
             this.verifyCODE.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -277,13 +274,12 @@ namespace GenderEqualityApp
             this.AppIcon.AllowFocused = false;
             this.AppIcon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AppIcon.AutoSizeHeight = true;
-            this.AppIcon.BorderRadius = 17;
+            this.AppIcon.BorderRadius = 15;
             this.AppIcon.Image = ((System.Drawing.Image)(resources.GetObject("AppIcon.Image")));
             this.AppIcon.IsCircle = false;
-            this.AppIcon.Location = new System.Drawing.Point(16, 9);
-            this.AppIcon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AppIcon.Location = new System.Drawing.Point(14, 7);
             this.AppIcon.Name = "AppIcon";
-            this.AppIcon.Size = new System.Drawing.Size(34, 34);
+            this.AppIcon.Size = new System.Drawing.Size(30, 30);
             this.AppIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AppIcon.TabIndex = 41;
             this.AppIcon.TabStop = false;
@@ -294,15 +290,14 @@ namespace GenderEqualityApp
             this.AppName.AllowParentOverrides = false;
             this.AppName.AutoEllipsis = false;
             this.AppName.CursorType = null;
-            this.AppName.Font = new System.Drawing.Font("Gothic A1 Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AppName.Font = new System.Drawing.Font("Archivo", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(211)))));
-            this.AppName.Location = new System.Drawing.Point(55, 14);
-            this.AppName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.AppName.Location = new System.Drawing.Point(49, 11);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.AppName.Size = new System.Drawing.Size(81, 25);
+            this.AppName.Size = new System.Drawing.Size(59, 19);
             this.AppName.TabIndex = 40;
-            this.AppName.Text = "App Name";
+            this.AppName.Text = "iRespond";
             this.AppName.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.AppName.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -311,14 +306,13 @@ namespace GenderEqualityApp
             this.btnClose.AllowFocused = false;
             this.btnClose.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnClose.AutoSizeHeight = true;
-            this.btnClose.BorderRadius = 17;
+            this.btnClose.BorderRadius = 15;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.IsCircle = false;
-            this.btnClose.Location = new System.Drawing.Point(855, 9);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnClose.Location = new System.Drawing.Point(760, 7);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(34, 34);
+            this.btnClose.Size = new System.Drawing.Size(30, 30);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnClose.TabIndex = 43;
             this.btnClose.TabStop = false;
@@ -329,14 +323,13 @@ namespace GenderEqualityApp
             this.btnMin.AllowFocused = false;
             this.btnMin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnMin.AutoSizeHeight = true;
-            this.btnMin.BorderRadius = 17;
+            this.btnMin.BorderRadius = 15;
             this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMin.Image = ((System.Drawing.Image)(resources.GetObject("btnMin.Image")));
             this.btnMin.IsCircle = false;
-            this.btnMin.Location = new System.Drawing.Point(816, 9);
-            this.btnMin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMin.Location = new System.Drawing.Point(725, 7);
             this.btnMin.Name = "btnMin";
-            this.btnMin.Size = new System.Drawing.Size(34, 34);
+            this.btnMin.Size = new System.Drawing.Size(30, 30);
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMin.TabIndex = 42;
             this.btnMin.TabStop = false;
@@ -344,10 +337,10 @@ namespace GenderEqualityApp
             // 
             // Verification
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(52)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(900, 562);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.AppIcon);
@@ -356,9 +349,8 @@ namespace GenderEqualityApp
             this.Controls.Add(this.bunifuLabel49);
             this.Controls.Add(this.bunifuPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Verification";
-            this.Padding = new System.Windows.Forms.Padding(11, 50, 11, 12);
+            this.Padding = new System.Windows.Forms.Padding(10, 40, 10, 10);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Verification";
             this.bunifuPanel1.ResumeLayout(false);
