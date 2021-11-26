@@ -1445,9 +1445,9 @@ namespace GenderEqualityApp
             this.bunifuLabel119.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel119.Name = "bunifuLabel119";
             this.bunifuLabel119.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel119.Size = new System.Drawing.Size(130, 25);
+            this.bunifuLabel119.Size = new System.Drawing.Size(124, 25);
             this.bunifuLabel119.TabIndex = 50;
-            this.bunifuLabel119.Text = "Attemptted Rape";
+            this.bunifuLabel119.Text = "Attempted Rape";
             this.bunifuLabel119.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             this.bunifuLabel119.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -1591,9 +1591,9 @@ namespace GenderEqualityApp
             this.bunifuLabel117.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel117.Name = "bunifuLabel117";
             this.bunifuLabel117.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel117.Size = new System.Drawing.Size(157, 25);
+            this.bunifuLabel117.Size = new System.Drawing.Size(171, 25);
             this.bunifuLabel117.TabIndex = 44;
-            this.bunifuLabel117.Text = "Acts of Lasviousness";
+            this.bunifuLabel117.Text = "Acts of Lasciviousness";
             this.bunifuLabel117.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             this.bunifuLabel117.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
