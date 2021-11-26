@@ -97,7 +97,7 @@ namespace GenderEqualityApp
             this.bunifuPictureBox1.BorderRadius = 175;
             this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
             this.bunifuPictureBox1.IsCircle = true;
-            this.bunifuPictureBox1.Location = new System.Drawing.Point(170, -3);
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(178, -3);
             this.bunifuPictureBox1.Name = "bunifuPictureBox1";
             this.bunifuPictureBox1.Size = new System.Drawing.Size(350, 350);
             this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
