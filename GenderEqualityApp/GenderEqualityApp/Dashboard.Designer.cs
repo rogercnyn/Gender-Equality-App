@@ -1424,7 +1424,7 @@ namespace GenderEqualityApp
             this.bunifuLabel120.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel120.Font = new System.Drawing.Font("Heebo", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel120.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel120.Location = new System.Drawing.Point(335, 329);
+            this.bunifuLabel120.Location = new System.Drawing.Point(342, 328);
             this.bunifuLabel120.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel120.Name = "bunifuLabel120";
             this.bunifuLabel120.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1441,7 +1441,7 @@ namespace GenderEqualityApp
             this.bunifuLabel119.CursorType = null;
             this.bunifuLabel119.Font = new System.Drawing.Font("Gothic A1", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel119.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel119.Location = new System.Drawing.Point(300, 298);
+            this.bunifuLabel119.Location = new System.Drawing.Point(303, 306);
             this.bunifuLabel119.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel119.Name = "bunifuLabel119";
             this.bunifuLabel119.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1496,7 +1496,7 @@ namespace GenderEqualityApp
             this.bunifuLabel118.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel118.Font = new System.Drawing.Font("Heebo", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel118.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel118.Location = new System.Drawing.Point(83, 326);
+            this.bunifuLabel118.Location = new System.Drawing.Point(94, 326);
             this.bunifuLabel118.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel118.Name = "bunifuLabel118";
             this.bunifuLabel118.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1587,7 +1587,7 @@ namespace GenderEqualityApp
             this.bunifuLabel117.CursorType = null;
             this.bunifuLabel117.Font = new System.Drawing.Font("Gothic A1", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel117.Location = new System.Drawing.Point(45, 298);
+            this.bunifuLabel117.Location = new System.Drawing.Point(45, 306);
             this.bunifuLabel117.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel117.Name = "bunifuLabel117";
             this.bunifuLabel117.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1605,7 +1605,7 @@ namespace GenderEqualityApp
             this.bunifuLabel61.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel61.Font = new System.Drawing.Font("Heebo", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel61.Location = new System.Drawing.Point(323, 144);
+            this.bunifuLabel61.Location = new System.Drawing.Point(332, 144);
             this.bunifuLabel61.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel61.Name = "bunifuLabel61";
             this.bunifuLabel61.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1622,7 +1622,7 @@ namespace GenderEqualityApp
             this.bunifuLabel60.CursorType = null;
             this.bunifuLabel60.Font = new System.Drawing.Font("Gothic A1", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel60.Location = new System.Drawing.Point(335, 116);
+            this.bunifuLabel60.Location = new System.Drawing.Point(344, 116);
             this.bunifuLabel60.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel60.Name = "bunifuLabel60";
             this.bunifuLabel60.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1640,7 +1640,7 @@ namespace GenderEqualityApp
             this.bunifuLabel59.CursorType = System.Windows.Forms.Cursors.Default;
             this.bunifuLabel59.Font = new System.Drawing.Font("Heebo", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel59.Location = new System.Drawing.Point(83, 144);
+            this.bunifuLabel59.Location = new System.Drawing.Point(86, 144);
             this.bunifuLabel59.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel59.Name = "bunifuLabel59";
             this.bunifuLabel59.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1657,7 +1657,7 @@ namespace GenderEqualityApp
             this.bunifuLabel58.CursorType = null;
             this.bunifuLabel58.Font = new System.Drawing.Font("Gothic A1", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuLabel58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(62)))));
-            this.bunifuLabel58.Location = new System.Drawing.Point(63, 116);
+            this.bunifuLabel58.Location = new System.Drawing.Point(66, 116);
             this.bunifuLabel58.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel58.Name = "bunifuLabel58";
             this.bunifuLabel58.RightToLeft = System.Windows.Forms.RightToLeft.No;
