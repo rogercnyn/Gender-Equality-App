@@ -385,15 +385,15 @@ namespace GenderEqualityApp
             this.AppName.AllowParentOverrides = false;
             this.AppName.AutoEllipsis = false;
             this.AppName.CursorType = null;
-            this.AppName.Font = new System.Drawing.Font("Gothic A1 Black", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AppName.Font = new System.Drawing.Font("Archivo", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(211)))));
             this.AppName.Location = new System.Drawing.Point(49, 11);
             this.AppName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AppName.Name = "AppName";
             this.AppName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.AppName.Size = new System.Drawing.Size(66, 21);
+            this.AppName.Size = new System.Drawing.Size(59, 19);
             this.AppName.TabIndex = 40;
-            this.AppName.Text = "App Name";
+            this.AppName.Text = "iRespond";
             this.AppName.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.AppName.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
