@@ -422,10 +422,10 @@ namespace GenderEqualityApp
             this.bunifuPages1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.tabPage2;
-            this.bunifuPages1.PageIndex = 1;
-            this.bunifuPages1.PageName = "tabPage2";
-            this.bunifuPages1.PageTitle = "Heat Map";
+            this.bunifuPages1.Page = this.tabPage4;
+            this.bunifuPages1.PageIndex = 3;
+            this.bunifuPages1.PageName = "tabPage4";
+            this.bunifuPages1.PageTitle = "Tips";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.Size = new System.Drawing.Size(991, 744);
             this.bunifuPages1.TabIndex = 0;
@@ -2241,9 +2241,9 @@ namespace GenderEqualityApp
             this.bunifuLabel73.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuLabel73.Name = "bunifuLabel73";
             this.bunifuLabel73.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel73.Size = new System.Drawing.Size(768, 39);
+            this.bunifuLabel73.Size = new System.Drawing.Size(521, 39);
             this.bunifuLabel73.TabIndex = 1;
-            this.bunifuLabel73.Text = "How to Deal with Narrow-Minded People (Gender Equality Ver.)";
+            this.bunifuLabel73.Text = "How to Be an Advocate for Gender Equality";
             this.bunifuLabel73.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel73.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
