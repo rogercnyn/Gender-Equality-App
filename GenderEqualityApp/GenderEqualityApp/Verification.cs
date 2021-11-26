@@ -14,9 +14,9 @@ namespace GenderEqualityApp
     public partial class Verification : Form
     {
 
-        /*SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
+        SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
-        public static string verifyCheck;*/
+        public static string verifyCheck;
         public Verification()
         {
             InitializeComponent();
@@ -25,7 +25,7 @@ namespace GenderEqualityApp
 
         private void verifySUBMIT_Click(object sender, EventArgs e)
         {
-            /*conn.Open();
+            conn.Open();
             SqlDataReader myReader = null;
             cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN", conn);
             cmd.Parameters.AddWithValue("@paramUN", RegForm.reg_username);
@@ -37,16 +37,16 @@ namespace GenderEqualityApp
             conn.Close();
 
             if (verifyCODE.Text == verifyCheck)
-            {*/
+            {
                 this.Hide();
                 LogIn login = new LogIn();
                 login.Show();
-            /*}
+            }
 
             if (verifyCODE.Text != verifyCheck)
             {
                 MessageBox.Show("Wrong code.");
-            }*/
+            }
         }
     }
 }
