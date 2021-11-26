@@ -60,7 +60,7 @@ namespace GenderEqualityApp
                 UserControlDb u = new UserControlDb();
                 u.Location = new System.Drawing.Point(3, 3);
                 u.Name = "user_Report1" + u;
-                u.Size = new System.Drawing.Size(1200, 788);
+                u.Size = new System.Drawing.Size(400, 400);
                 u.TabIndex = i++;
                 u.AddUser(s);
                 flowLayoutPanel4.Controls.Add(u);
