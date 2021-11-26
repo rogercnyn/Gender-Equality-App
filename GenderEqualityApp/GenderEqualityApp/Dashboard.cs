@@ -17,15 +17,15 @@ namespace GenderEqualityApp
     public partial class Dashboard : Form
     {
         List<reportOfUser> m_report = new List<reportOfUser>();
-        SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
+        /*SqlConnection conn = new SqlConnection("Server = localhost\\SQLEXPRESS; Database=usersdatabase;Trusted_Connection=True;");
         SqlCommand cmd;
         SqlCommand newcmd;
-        SqlCommand dashcmd;
+        SqlCommand dashcmd;*/
         public Dashboard()
         {
             InitializeComponent();
             AddUser(m_report);
-            bunifuLabel2.Text = LogIn.username;
+            /*bunifuLabel2.Text = LogIn.username;
             conn.Open();
             string dashcm = "SELECT profilepic FROM usersdata WHERE userName='" + LogIn.username + "'";
             if (conn.State == ConnectionState.Open)
@@ -47,7 +47,7 @@ namespace GenderEqualityApp
                     }
                 }
                 dashread.Close();
-            }
+            }*/
             
         }
         void AddUser(List<reportOfUser> list)
@@ -104,7 +104,7 @@ namespace GenderEqualityApp
         private void bunifuLabel2_Click(object sender, EventArgs e)
         {
             bunifuPages1.SetPage("Profile");
-            bunifuLabel76.Text = LogIn.username;
+            /*bunifuLabel76.Text = LogIn.username;
             SqlDataReader myReader = null;
             cmd = new SqlCommand("SELECT * FROM usersdata WHERE userName = @paramUN", conn);
             cmd.Parameters.AddWithValue("@paramUN", bunifuLabel76.Text);
@@ -146,7 +146,7 @@ namespace GenderEqualityApp
             {
                 conn.Close();
                 MessageBox.Show("Error");
-            }
+            }*/
         }
 
         private void btnMin_Click(object sender, EventArgs e)
