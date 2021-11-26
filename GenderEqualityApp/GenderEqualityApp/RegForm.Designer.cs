@@ -31,6 +31,10 @@ namespace GenderEqualityApp
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegForm));
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
@@ -57,11 +61,9 @@ namespace GenderEqualityApp
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.tbxCPW = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.bunifuButton22 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.regPic = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -90,8 +92,6 @@ namespace GenderEqualityApp
             this.AppName = new Bunifu.UI.WinForms.BunifuLabel();
             this.btnClose = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.btnMin = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.tbxCPW = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.regPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -141,6 +141,94 @@ namespace GenderEqualityApp
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(917, 779);
             this.bunifuPanel1.TabIndex = 12;
+            // 
+            // tbxCPW
+            // 
+            this.tbxCPW.AcceptsReturn = false;
+            this.tbxCPW.AcceptsTab = false;
+            this.tbxCPW.AnimationSpeed = 200;
+            this.tbxCPW.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.tbxCPW.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.tbxCPW.AutoSizeHeight = true;
+            this.tbxCPW.BackColor = System.Drawing.Color.White;
+            this.tbxCPW.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbxCPW.BackgroundImage")));
+            this.tbxCPW.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.tbxCPW.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.tbxCPW.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.tbxCPW.BorderColorIdle = System.Drawing.Color.Silver;
+            this.tbxCPW.BorderRadius = 1;
+            this.tbxCPW.BorderThickness = 1;
+            this.tbxCPW.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.tbxCPW.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbxCPW.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.tbxCPW.DefaultText = "";
+            this.tbxCPW.FillColor = System.Drawing.Color.White;
+            this.tbxCPW.HideSelection = true;
+            this.tbxCPW.IconLeft = null;
+            this.tbxCPW.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbxCPW.IconPadding = 10;
+            this.tbxCPW.IconRight = null;
+            this.tbxCPW.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbxCPW.Lines = new string[0];
+            this.tbxCPW.Location = new System.Drawing.Point(549, 576);
+            this.tbxCPW.MaxLength = 32767;
+            this.tbxCPW.MinimumSize = new System.Drawing.Size(1, 1);
+            this.tbxCPW.Modified = false;
+            this.tbxCPW.Multiline = false;
+            this.tbxCPW.Name = "tbxCPW";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbxCPW.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.tbxCPW.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbxCPW.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.tbxCPW.OnIdleState = stateProperties4;
+            this.tbxCPW.Padding = new System.Windows.Forms.Padding(3);
+            this.tbxCPW.PasswordChar = '\0';
+            this.tbxCPW.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.tbxCPW.PlaceholderText = "Enter text";
+            this.tbxCPW.ReadOnly = false;
+            this.tbxCPW.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.tbxCPW.SelectedText = "";
+            this.tbxCPW.SelectionLength = 0;
+            this.tbxCPW.SelectionStart = 0;
+            this.tbxCPW.ShortcutsEnabled = true;
+            this.tbxCPW.Size = new System.Drawing.Size(295, 43);
+            this.tbxCPW.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.tbxCPW.TabIndex = 31;
+            this.tbxCPW.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.tbxCPW.TextMarginBottom = 0;
+            this.tbxCPW.TextMarginLeft = 3;
+            this.tbxCPW.TextMarginTop = 1;
+            this.tbxCPW.TextPlaceholder = "Enter text";
+            this.tbxCPW.UseSystemPasswordChar = false;
+            this.tbxCPW.WordWrap = true;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
+            this.label11.Location = new System.Drawing.Point(543, 541);
+            this.label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(188, 31);
+            this.label11.TabIndex = 30;
+            this.label11.Text = "Confirm Password";
             // 
             // bunifuButton22
             // 
@@ -1092,94 +1180,6 @@ namespace GenderEqualityApp
             this.btnMin.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
-            // tbxCPW
-            // 
-            this.tbxCPW.AcceptsReturn = false;
-            this.tbxCPW.AcceptsTab = false;
-            this.tbxCPW.AnimationSpeed = 200;
-            this.tbxCPW.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.tbxCPW.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.tbxCPW.AutoSizeHeight = true;
-            this.tbxCPW.BackColor = System.Drawing.Color.White;
-            this.tbxCPW.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tbxCPW.BackgroundImage")));
-            this.tbxCPW.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.tbxCPW.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.tbxCPW.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.tbxCPW.BorderColorIdle = System.Drawing.Color.Silver;
-            this.tbxCPW.BorderRadius = 1;
-            this.tbxCPW.BorderThickness = 1;
-            this.tbxCPW.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.tbxCPW.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbxCPW.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.tbxCPW.DefaultText = "";
-            this.tbxCPW.FillColor = System.Drawing.Color.White;
-            this.tbxCPW.HideSelection = true;
-            this.tbxCPW.IconLeft = null;
-            this.tbxCPW.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbxCPW.IconPadding = 10;
-            this.tbxCPW.IconRight = null;
-            this.tbxCPW.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbxCPW.Lines = new string[0];
-            this.tbxCPW.Location = new System.Drawing.Point(549, 576);
-            this.tbxCPW.MaxLength = 32767;
-            this.tbxCPW.MinimumSize = new System.Drawing.Size(1, 1);
-            this.tbxCPW.Modified = false;
-            this.tbxCPW.Multiline = false;
-            this.tbxCPW.Name = "tbxCPW";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbxCPW.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.tbxCPW.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbxCPW.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Silver;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Empty;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.tbxCPW.OnIdleState = stateProperties4;
-            this.tbxCPW.Padding = new System.Windows.Forms.Padding(3);
-            this.tbxCPW.PasswordChar = '\0';
-            this.tbxCPW.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.tbxCPW.PlaceholderText = "Enter text";
-            this.tbxCPW.ReadOnly = false;
-            this.tbxCPW.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.tbxCPW.SelectedText = "";
-            this.tbxCPW.SelectionLength = 0;
-            this.tbxCPW.SelectionStart = 0;
-            this.tbxCPW.ShortcutsEnabled = true;
-            this.tbxCPW.Size = new System.Drawing.Size(295, 43);
-            this.tbxCPW.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.tbxCPW.TabIndex = 31;
-            this.tbxCPW.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tbxCPW.TextMarginBottom = 0;
-            this.tbxCPW.TextMarginLeft = 3;
-            this.tbxCPW.TextMarginTop = 1;
-            this.tbxCPW.TextPlaceholder = "Enter text";
-            this.tbxCPW.UseSystemPasswordChar = false;
-            this.tbxCPW.WordWrap = true;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Gothic A1", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(105)))));
-            this.label11.Location = new System.Drawing.Point(543, 541);
-            this.label11.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(188, 31);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "Confirm Password";
-            // 
             // RegForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1192,6 +1192,7 @@ namespace GenderEqualityApp
             this.Controls.Add(this.AppName);
             this.Controls.Add(this.bunifuPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegForm";
             this.Padding = new System.Windows.Forms.Padding(10, 40, 10, 10);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
