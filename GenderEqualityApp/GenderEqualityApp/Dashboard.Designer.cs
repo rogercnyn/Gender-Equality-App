@@ -422,10 +422,10 @@ namespace GenderEqualityApp
             this.bunifuPages1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.About;
-            this.bunifuPages1.PageIndex = 5;
-            this.bunifuPages1.PageName = "About";
-            this.bunifuPages1.PageTitle = "About";
+            this.bunifuPages1.Page = this.tabPage2;
+            this.bunifuPages1.PageIndex = 1;
+            this.bunifuPages1.PageName = "tabPage2";
+            this.bunifuPages1.PageTitle = "Heat Map";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.Size = new System.Drawing.Size(991, 744);
             this.bunifuPages1.TabIndex = 0;
@@ -1386,7 +1386,7 @@ namespace GenderEqualityApp
             this.bunifuCircleProgress4.AnimationSpeed = 1;
             this.bunifuCircleProgress4.BackColor = System.Drawing.Color.Transparent;
             this.bunifuCircleProgress4.CircleMargin = 10;
-            this.bunifuCircleProgress4.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress4.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCircleProgress4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuCircleProgress4.IsPercentage = false;
             this.bunifuCircleProgress4.LineProgressThickness = 10;
@@ -1410,10 +1410,10 @@ namespace GenderEqualityApp
             this.bunifuCircleProgress4.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
             this.bunifuCircleProgress4.SuperScriptText = "";
             this.bunifuCircleProgress4.TabIndex = 52;
-            this.bunifuCircleProgress4.Text = "30";
+            this.bunifuCircleProgress4.Text = "45";
             this.bunifuCircleProgress4.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.bunifuCircleProgress4.Value = 30;
-            this.bunifuCircleProgress4.ValueByTransition = 30;
+            this.bunifuCircleProgress4.Value = 45;
+            this.bunifuCircleProgress4.ValueByTransition = 45;
             this.bunifuCircleProgress4.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // bunifuLabel120
@@ -1458,7 +1458,7 @@ namespace GenderEqualityApp
             this.bunifuCircleProgress3.AnimationSpeed = 1;
             this.bunifuCircleProgress3.BackColor = System.Drawing.Color.Transparent;
             this.bunifuCircleProgress3.CircleMargin = 10;
-            this.bunifuCircleProgress3.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress3.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCircleProgress3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuCircleProgress3.IsPercentage = false;
             this.bunifuCircleProgress3.LineProgressThickness = 10;
@@ -1482,10 +1482,10 @@ namespace GenderEqualityApp
             this.bunifuCircleProgress3.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
             this.bunifuCircleProgress3.SuperScriptText = "";
             this.bunifuCircleProgress3.TabIndex = 49;
-            this.bunifuCircleProgress3.Text = "30";
+            this.bunifuCircleProgress3.Text = "3";
             this.bunifuCircleProgress3.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.bunifuCircleProgress3.Value = 30;
-            this.bunifuCircleProgress3.ValueByTransition = 30;
+            this.bunifuCircleProgress3.Value = 3;
+            this.bunifuCircleProgress3.ValueByTransition = 3;
             this.bunifuCircleProgress3.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // bunifuLabel118
@@ -1513,7 +1513,7 @@ namespace GenderEqualityApp
             this.bunifuCircleProgress2.AnimationSpeed = 1;
             this.bunifuCircleProgress2.BackColor = System.Drawing.Color.Transparent;
             this.bunifuCircleProgress2.CircleMargin = 10;
-            this.bunifuCircleProgress2.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress2.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCircleProgress2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuCircleProgress2.IsPercentage = false;
             this.bunifuCircleProgress2.LineProgressThickness = 10;
@@ -1550,7 +1550,7 @@ namespace GenderEqualityApp
             this.bunifuCircleProgress1.AnimationSpeed = 1;
             this.bunifuCircleProgress1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuCircleProgress1.CircleMargin = 10;
-            this.bunifuCircleProgress1.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCircleProgress1.Font = new System.Drawing.Font("Gothic A1 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCircleProgress1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuCircleProgress1.IsPercentage = false;
             this.bunifuCircleProgress1.LineProgressThickness = 10;
@@ -1574,10 +1574,10 @@ namespace GenderEqualityApp
             this.bunifuCircleProgress1.SuperScriptMargin = new System.Windows.Forms.Padding(5, 20, 0, 0);
             this.bunifuCircleProgress1.SuperScriptText = "";
             this.bunifuCircleProgress1.TabIndex = 16;
-            this.bunifuCircleProgress1.Text = "30";
+            this.bunifuCircleProgress1.Text = "15";
             this.bunifuCircleProgress1.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.bunifuCircleProgress1.Value = 30;
-            this.bunifuCircleProgress1.ValueByTransition = 30;
+            this.bunifuCircleProgress1.Value = 15;
+            this.bunifuCircleProgress1.ValueByTransition = 15;
             this.bunifuCircleProgress1.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // bunifuLabel117
